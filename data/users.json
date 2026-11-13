@@ -1,0 +1,51 @@
+[
+  {
+    "id": "usr_master_usman",
+    "name": "Usman Ali Khan",
+    "email": "usmanalikhanchandio@gmail.com",
+    "phone": "+92 313 1664235",
+    "passwordHash": "pass123",
+    "referenceCode": "REF-USMAN-772",
+    "referralCount": 3,
+    "credits": 300,
+    "role": "admin",
+    "createdAt": "2026-10-27T14:27:18.041Z",
+    "referrals": [
+      {
+        "id": "usr_1793543243872",
+        "name": "Ali Raza",
+        "email": "ali.raza.test@gmail.com",
+        "joinedAt": "2026-11-01T14:27:23.872Z",
+        "bonusAwarded": 50
+      },
+      {
+        "id": "usr_ref_1",
+        "name": "Hamza Malik",
+        "email": "hamza.creator@gmail.com",
+        "joinedAt": "2026-10-29T14:27:18.041Z",
+        "bonusAwarded": 50
+      },
+      {
+        "id": "usr_ref_2",
+        "name": "Ayesha Tariq",
+        "email": "ayesha.t@outlook.com",
+        "joinedAt": "2026-10-31T14:27:18.041Z",
+        "bonusAwarded": 50
+      }
+    ]
+  },
+  {
+    "id": "usr_1793543243872_cfdee3",
+    "name": "Ali Raza",
+    "email": "ali.raza.test@gmail.com",
+    "passwordHash": "pass123",
+    "referenceCode": "REF-ALIRAZ-BDA3",
+    "referredBy": "usr_master_usman",
+    "referredByName": "Usman Ali Khan",
+    "referralCount": 0,
+    "credits": 125,
+    "role": "user",
+    "createdAt": "2026-11-01T14:27:23.872Z",
+    "referrals": []
+  }
+]

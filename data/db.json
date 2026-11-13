@@ -1,0 +1,621 @@
+{
+  "products": [],
+  "orders": [],
+  "settings": {
+    "adminUsername": "admin",
+    "adminPassword": "aass1100$",
+    "adminWhatsApp": "03131664235",
+    "storeName": "AURUM DIGITAL - Premium Digital Store",
+    "storeTagline": "Exclusive Digital Assets, Templates & Software",
+    "announcement": "🌟 Official Store — Instant WhatsApp Digital Delivery at 03131664235"
+  },
+  "players": [
+    {
+      "id": "AL_791276",
+      "name": "Player_1276",
+      "avatar": "crown",
+      "coins": 2500,
+      "xp": 350,
+      "level": 2,
+      "isGuest": true,
+      "stats": {
+        "matchesPlayed": 0,
+        "wins": 0,
+        "twoPlayerWins": 0,
+        "fourPlayerWins": 0,
+        "tokensCaptured": 0,
+        "coinsEarned": 5000
+      },
+      "inventory": {
+        "diceSkins": [
+          "classic_gold",
+          "emerald_sultan"
+        ],
+        "tokenSkins": [
+          "imperial_crown"
+        ],
+        "boardThemes": [
+          "royal_midnight"
+        ],
+        "avatars": [
+          "crown",
+          "sultan",
+          "falcon",
+          "lion"
+        ],
+        "equippedDice": "emerald_sultan",
+        "equippedToken": "imperial_crown",
+        "equippedBoard": "royal_midnight",
+        "equippedAvatar": "crown"
+      },
+      "dailyStreak": 1,
+      "createdAt": "2026-10-27T07:44:53.492Z"
+    },
+    {
+      "id": "AL_786981",
+      "name": "Player_6981",
+      "avatar": "crown",
+      "coins": 7000,
+      "xp": 600,
+      "level": 3,
+      "isGuest": true,
+      "stats": {
+        "matchesPlayed": 0,
+        "wins": 0,
+        "twoPlayerWins": 0,
+        "fourPlayerWins": 0,
+        "tokensCaptured": 0,
+        "coinsEarned": 7000
+      },
+      "inventory": {
+        "diceSkins": [
+          "classic_gold"
+        ],
+        "tokenSkins": [
+          "imperial_crown"
+        ],
+        "boardThemes": [
+          "royal_midnight"
+        ],
+        "avatars": [
+          "crown",
+          "sultan",
+          "falcon",
+          "lion"
+        ],
+        "equippedDice": "classic_gold",
+        "equippedToken": "imperial_crown",
+        "equippedBoard": "royal_midnight",
+        "equippedAvatar": "crown"
+      },
+      "dailyStreak": 2,
+      "createdAt": "2026-10-27T07:44:43.776Z",
+      "lastDailyCalendarClaimAt": "2026-10-27T07:44:43.795Z",
+      "lastSpinAt": "2026-10-27T07:44:43.807Z"
+    },
+    {
+      "id": "AL_919556",
+      "name": "Player_9556",
+      "avatar": "crown",
+      "coins": 5000,
+      "xp": 350,
+      "level": 2,
+      "isGuest": true,
+      "stats": {
+        "matchesPlayed": 0,
+        "wins": 0,
+        "twoPlayerWins": 0,
+        "fourPlayerWins": 0,
+        "tokensCaptured": 0,
+        "coinsEarned": 5000
+      },
+      "inventory": {
+        "diceSkins": [
+          "classic_gold"
+        ],
+        "tokenSkins": [
+          "imperial_crown"
+        ],
+        "boardThemes": [
+          "royal_midnight"
+        ],
+        "avatars": [
+          "crown",
+          "sultan",
+          "falcon",
+          "lion"
+        ],
+        "equippedDice": "classic_gold",
+        "equippedToken": "imperial_crown",
+        "equippedBoard": "royal_midnight",
+        "equippedAvatar": "crown"
+      },
+      "dailyStreak": 1,
+      "createdAt": "2026-10-27T07:44:32.942Z"
+    },
+    {
+      "id": "AL_335206",
+      "name": "Player_5206",
+      "avatar": "crown",
+      "coins": 5000,
+      "isGuest": true,
+      "stats": {
+        "matchesPlayed": 0,
+        "wins": 0,
+        "twoPlayerWins": 0,
+        "fourPlayerWins": 0,
+        "tokensCaptured": 0,
+        "coinsEarned": 5000
+      },
+      "createdAt": "2026-10-27T07:14:53.441Z"
+    },
+    {
+      "id": "AL_794403",
+      "name": "Player_4403",
+      "avatar": "crown",
+      "coins": 6500,
+      "isGuest": true,
+      "stats": {
+        "matchesPlayed": 0,
+        "wins": 0,
+        "twoPlayerWins": 0,
+        "fourPlayerWins": 0,
+        "tokensCaptured": 0,
+        "coinsEarned": 6500
+      },
+      "createdAt": "2026-10-27T07:00:16.797Z",
+      "lastDailyBonusAt": "2026-10-27T07:00:34.845Z",
+      "lastAdWatchedAt": "2026-10-27T07:00:48.006Z"
+    },
+    {
+      "id": "AL_146537",
+      "name": "Tester",
+      "avatar": "crown",
+      "coins": 5000,
+      "isGuest": true,
+      "stats": {
+        "matchesPlayed": 0,
+        "wins": 0,
+        "twoPlayerWins": 0,
+        "fourPlayerWins": 0,
+        "tokensCaptured": 0,
+        "coinsEarned": 5000
+      },
+      "createdAt": "2026-10-27T06:04:55.776Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN_1793087093506_7101",
+      "playerId": "AL_791276",
+      "type": "SHOP_PURCHASE",
+      "amount": -2500,
+      "balanceAfter": 2500,
+      "description": "Purchased Ottoman Emerald Dice (DICE)",
+      "timestamp": "2026-10-27T07:44:53.506Z"
+    },
+    {
+      "id": "TXN_1793087093492_6048",
+      "playerId": "AL_791276",
+      "type": "STARTING_BONUS",
+      "amount": 5000,
+      "balanceAfter": 5000,
+      "description": "Welcome starting virtual coins bonus",
+      "timestamp": "2026-10-27T07:44:53.492Z"
+    },
+    {
+      "id": "TXN_1793087083807_7847",
+      "playerId": "AL_786981",
+      "type": "LUCKY_SPIN",
+      "amount": 1500,
+      "balanceAfter": 7000,
+      "description": "Lucky Spin Prize: 1,500 Coins",
+      "timestamp": "2026-10-27T07:44:43.807Z"
+    },
+    {
+      "id": "TXN_1793087083795_1486",
+      "playerId": "AL_786981",
+      "type": "DAILY_CALENDAR",
+      "amount": 500,
+      "balanceAfter": 5500,
+      "description": "Day 1 Daily Check-In Bonus",
+      "timestamp": "2026-10-27T07:44:43.795Z"
+    },
+    {
+      "id": "TXN_1793087083776_5875",
+      "playerId": "AL_786981",
+      "type": "STARTING_BONUS",
+      "amount": 5000,
+      "balanceAfter": 5000,
+      "description": "Welcome starting virtual coins bonus",
+      "timestamp": "2026-10-27T07:44:43.776Z"
+    },
+    {
+      "id": "TXN_1793087072942_5897",
+      "playerId": "AL_919556",
+      "type": "STARTING_BONUS",
+      "amount": 5000,
+      "balanceAfter": 5000,
+      "description": "Welcome starting virtual coins bonus",
+      "timestamp": "2026-10-27T07:44:32.942Z"
+    },
+    {
+      "id": "TXN_1793085293441_5291",
+      "playerId": "AL_335206",
+      "type": "STARTING_BONUS",
+      "amount": 5000,
+      "balanceAfter": 5000,
+      "description": "Welcome starting virtual coins bonus",
+      "timestamp": "2026-10-27T07:14:53.441Z"
+    },
+    {
+      "id": "TXN_1793084448006_6495",
+      "playerId": "AL_794403",
+      "type": "REWARDED_AD",
+      "amount": 500,
+      "balanceAfter": 6500,
+      "description": "Rewarded video advertisement bonus",
+      "timestamp": "2026-10-27T07:00:48.006Z"
+    },
+    {
+      "id": "TXN_1793084434845_1995",
+      "playerId": "AL_794403",
+      "type": "DAILY_BONUS",
+      "amount": 1000,
+      "balanceAfter": 6000,
+      "description": "Daily login bonus reward",
+      "timestamp": "2026-10-27T07:00:34.845Z"
+    },
+    {
+      "id": "TXN_1793084416797_5027",
+      "playerId": "AL_794403",
+      "type": "STARTING_BONUS",
+      "amount": 5000,
+      "balanceAfter": 5000,
+      "description": "Welcome starting virtual coins bonus",
+      "timestamp": "2026-10-27T07:00:16.797Z"
+    },
+    {
+      "id": "TXN_1793081095776_3648",
+      "playerId": "AL_146537",
+      "type": "STARTING_BONUS",
+      "amount": 5000,
+      "balanceAfter": 5000,
+      "description": "Welcome starting virtual coins bonus",
+      "timestamp": "2026-10-27T06:04:55.776Z"
+    }
+  ],
+  "matches": [],
+  "reports": [],
+  "inboxes": [
+    {
+      "id": "eb6b5f3d-178e-4507-a88b-29632f3a8ddc",
+      "address": "frost.mail3372@1secmail.com",
+      "username": "frost.mail3372",
+      "domain": "1secmail.com",
+      "accessToken": "e3fb47c07240ea31104d2289cd93ae21723b862da15862e3",
+      "shareToken": "e8f6afff2d3d40ffca2496fdb36357ca",
+      "createdAt": "2026-10-28T07:55:40.770Z",
+      "expiresAt": "2026-10-28T08:55:40.770Z",
+      "messagesCount": 10,
+      "isCustomDomain": false
+    },
+    {
+      "id": "33af9a0e-a085-47a6-bf74-831ff0a2dcd5",
+      "address": "vivid.spark6219@kzccv.com",
+      "username": "vivid.spark6219",
+      "domain": "kzccv.com",
+      "accessToken": "cc73336cec8167bfcab256f193128d13ff1d697598731fc1",
+      "shareToken": "cf8e382199ec6b7cc54441e2fdd127cf",
+      "createdAt": "2026-10-28T08:09:02.646Z",
+      "expiresAt": "2026-10-28T09:09:02.646Z",
+      "messagesCount": 1,
+      "isCustomDomain": false
+    },
+    {
+      "id": "d82757bf-f88a-4059-8f2a-4b63d075e501",
+      "address": "vivid.spark6219@1secmail.net",
+      "username": "vivid.spark6219",
+      "domain": "1secmail.net",
+      "accessToken": "a406366945087d1811031ab83533f74ece75c31f1d86bd8b",
+      "shareToken": "29d11f65e963779c345940157a9ddbe3",
+      "createdAt": "2026-10-28T08:09:02.649Z",
+      "expiresAt": "2026-10-28T09:09:02.649Z",
+      "messagesCount": 1,
+      "isCustomDomain": false
+    },
+    {
+      "id": "1a5bdd13-b8f1-4536-8e1f-9e1b0c626ce6",
+      "address": "vivid.spark6219@1secmail.com",
+      "username": "vivid.spark6219",
+      "domain": "1secmail.com",
+      "accessToken": "0781e63d3aaada781bd2ad7e7d238be58c5e415045ab0d5e",
+      "shareToken": "d601db7b87ea6c2b05808cf12ad568cd",
+      "createdAt": "2026-10-28T08:09:02.653Z",
+      "expiresAt": "2026-10-28T09:09:02.653Z",
+      "messagesCount": 1,
+      "isCustomDomain": false
+    },
+    {
+      "id": "1e9ce658-755e-4836-91bf-045edd739aa5",
+      "address": "vivid.spark6219@1secmail.org",
+      "username": "vivid.spark6219",
+      "domain": "1secmail.org",
+      "accessToken": "43bfce4bc95b18082e7205b32a8e487549c643bd6ea6b4bf",
+      "shareToken": "445932736e182a08729bbe3c299559a0",
+      "createdAt": "2026-10-28T08:09:02.655Z",
+      "expiresAt": "2026-10-28T09:09:02.655Z",
+      "messagesCount": 1,
+      "isCustomDomain": false
+    },
+    {
+      "id": "106f8de2-7e7a-4b93-bacd-5c18f772a74d",
+      "address": "vivid.spark6219@extramail.live",
+      "username": "vivid.spark6219",
+      "domain": "extramail.live",
+      "accessToken": "c79a70fe574aa7fd80f882115fa59c5ea501ae795c3f6db1",
+      "shareToken": "c273012f7f517aba2db463498ebe0ede",
+      "createdAt": "2026-10-28T08:12:31.252Z",
+      "expiresAt": "2026-10-28T09:12:31.252Z",
+      "messagesCount": 1,
+      "isCustomDomain": true
+    },
+    {
+      "id": "44ea7dd9-d149-485e-a9a4-c8a8a657fbe4",
+      "address": "sonia5727@1secmail.com",
+      "username": "sonia5727",
+      "domain": "1secmail.com",
+      "accessToken": "9ffb665a299ec29ca7766708c8e41ed9cf20f786fded0e08",
+      "shareToken": "82e22626a5adba4d26e61cdf0e8b3320",
+      "createdAt": "2026-10-28T08:13:43.759Z",
+      "expiresAt": "2026-10-28T09:13:43.759Z",
+      "messagesCount": 2,
+      "isCustomDomain": false
+    }
+  ],
+  "messages": [
+    {
+      "id": "1316e764-1f65-42bf-a568-c4eeef04f20b",
+      "inboxAddress": "sonia5727@1secmail.com",
+      "from": "Instagram Security <security@mail.instagram.com>",
+      "fromName": "Instagram",
+      "to": "sonia5727@1secmail.com",
+      "subject": "311076 is your Instagram verification code [DEMO]",
+      "date": "2026-10-28T08:13:47.687Z",
+      "textBody": "Your verification code is: 311076. This is a simulated test message.",
+      "htmlBody": "\n          <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 500px; padding: 24px; background: #ffffff; color: #262626; border: 1px solid #dbdbdb; border-radius: 8px;\">\n            <div style=\"font-size: 20px; font-weight: 700; color: #262626; margin-bottom: 12px;\">Instagram Security Code</div>\n            <p style=\"color: #8e8e8e; font-size: 14px;\">Someone tried to log in to or confirm your account. Enter this code to verify your identity:</p>\n            <div style=\"background: #fafafa; padding: 16px; border-radius: 8px; text-align: center; font-size: 32px; font-weight: 800; letter-spacing: 8px; color: #0095f6; margin: 16px 0; border: 1px solid #efefef;\">\n              311076\n            </div>\n            <p style=\"color: #8e8e8e; font-size: 12px;\">This code expires in 15 minutes. Never share it with anyone.</p>\n            <div style=\"margin-top: 14px; padding: 8px 12px; background: #fef3c7; border: 1px solid #f59e0b; border-radius: 6px; font-size: 12px; color: #92400e;\">\n              ⚠️ DEMO DATA: Simulated Instagram verification token for testing.\n            </div>\n          </div>\n        ",
+      "verificationCode": "311076",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "731a5e8d-5e3e-46d3-99fb-d28e699df212",
+      "inboxAddress": "frost.mail3372@1secmail.com",
+      "from": "Yahoo Security <account-security-noreply@cc.yahoo-inc.com>",
+      "fromName": "Yahoo",
+      "to": "frost.mail3372@1secmail.com",
+      "subject": "Your Yahoo verification code is 866432 [DEMO]",
+      "date": "2026-10-28T08:09:21.863Z",
+      "textBody": "Your verification code is: 866432. This is a simulated test message.",
+      "htmlBody": "\n          <div style=\"font-family: Helvetica, Arial, sans-serif; max-width: 500px; padding: 24px; background: #ffffff; color: #1d2228; border: 1px solid #e0e4e9; border-radius: 8px;\">\n            <div style=\"font-size: 22px; font-weight: 700; color: #6001d2; margin-bottom: 12px;\">Yahoo Account Security</div>\n            <p style=\"color: #5b636a; font-size: 14px;\">Here is the one-time verification code you requested:</p>\n            <div style=\"background: #f0ecf9; padding: 16px; border-radius: 8px; text-align: center; font-size: 30px; font-weight: 700; letter-spacing: 6px; color: #6001d2; margin: 16px 0;\">\n              866432\n            </div>\n            <p style=\"color: #79838b; font-size: 12px;\">If you did not request this code, your account might be accessed by someone else.</p>\n            <div style=\"margin-top: 14px; padding: 8px 12px; background: #fef3c7; border: 1px solid #f59e0b; border-radius: 6px; font-size: 12px; color: #92400e;\">\n              ⚠️ DEMO DATA: Simulated Yahoo authentication code for testing.\n            </div>\n          </div>\n        ",
+      "verificationCode": "866432",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "6a2d9b16-ff3e-4a34-a071-74dd5359f229",
+      "inboxAddress": "frost.mail3372@1secmail.com",
+      "from": "Instagram Security <security@mail.instagram.com>",
+      "fromName": "Instagram",
+      "to": "frost.mail3372@1secmail.com",
+      "subject": "580926 is your Instagram verification code [DEMO]",
+      "date": "2026-10-28T08:09:18.215Z",
+      "textBody": "Your verification code is: 580926. This is a simulated test message.",
+      "htmlBody": "\n          <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 500px; padding: 24px; background: #ffffff; color: #262626; border: 1px solid #dbdbdb; border-radius: 8px;\">\n            <div style=\"font-size: 20px; font-weight: 700; color: #262626; margin-bottom: 12px;\">Instagram Security Code</div>\n            <p style=\"color: #8e8e8e; font-size: 14px;\">Someone tried to log in to or confirm your account. Enter this code to verify your identity:</p>\n            <div style=\"background: #fafafa; padding: 16px; border-radius: 8px; text-align: center; font-size: 32px; font-weight: 800; letter-spacing: 8px; color: #0095f6; margin: 16px 0; border: 1px solid #efefef;\">\n              580926\n            </div>\n            <p style=\"color: #8e8e8e; font-size: 12px;\">This code expires in 15 minutes. Never share it with anyone.</p>\n            <div style=\"margin-top: 14px; padding: 8px 12px; background: #fef3c7; border: 1px solid #f59e0b; border-radius: 6px; font-size: 12px; color: #92400e;\">\n              ⚠️ DEMO DATA: Simulated Instagram verification token for testing.\n            </div>\n          </div>\n        ",
+      "verificationCode": "580926",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "d2f9b919-2ba5-4a4b-982e-5faa97a61440",
+      "inboxAddress": "frost.mail3372@1secmail.com",
+      "from": "Discord Verification <verify@discord.com>",
+      "fromName": "Discord",
+      "to": "frost.mail3372@1secmail.com",
+      "subject": "Your Discord security token: 370328 [DEMO]",
+      "date": "2026-10-28T08:09:01.422Z",
+      "textBody": "Your verification code is: 370328. This is a simulated test message.",
+      "htmlBody": "\n          <div style=\"font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 500px; padding: 24px; background: #2f3136; color: #dcddde; border-radius: 8px;\">\n            <h2 style=\"color: #ffffff; margin-top: 0; font-size: 20px;\">Hey Gamer!</h2>\n            <p style=\"color: #b9bbbe; font-size: 14px;\">Someone tried logging into your Discord account from an unrecognized location. Here is your authentication code:</p>\n            <div style=\"background: #202225; padding: 16px; border-radius: 6px; text-align: center; font-size: 30px; font-weight: bold; letter-spacing: 6px; color: #5865f2; margin: 16px 0;\">\n              370328\n            </div>\n            <p style=\"color: #8e9297; font-size: 12px;\">Do not share this code with anyone, including Discord staff.</p>\n            <div style=\"margin-top: 14px; padding: 8px 12px; background: #3b2d18; border: 1px solid #f59e0b; border-radius: 6px; font-size: 12px; color: #fbbf24;\">\n              ⚠️ DEMO DATA: Simulated Discord OTP token.\n            </div>\n          </div>\n        ",
+      "verificationCode": "370328",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "07a3197d-244a-41a8-af50-3348b4935c73",
+      "inboxAddress": "frost.mail3372@1secmail.com",
+      "from": "Discord Verification <verify@discord.com>",
+      "fromName": "Discord",
+      "to": "frost.mail3372@1secmail.com",
+      "subject": "Your Discord security token: 483554 [DEMO]",
+      "date": "2026-10-28T08:08:58.164Z",
+      "textBody": "Your verification code is: 483554. This is a simulated test message.",
+      "htmlBody": "\n          <div style=\"font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 500px; padding: 24px; background: #2f3136; color: #dcddde; border-radius: 8px;\">\n            <h2 style=\"color: #ffffff; margin-top: 0; font-size: 20px;\">Hey Gamer!</h2>\n            <p style=\"color: #b9bbbe; font-size: 14px;\">Someone tried logging into your Discord account from an unrecognized location. Here is your authentication code:</p>\n            <div style=\"background: #202225; padding: 16px; border-radius: 6px; text-align: center; font-size: 30px; font-weight: bold; letter-spacing: 6px; color: #5865f2; margin: 16px 0;\">\n              483554\n            </div>\n            <p style=\"color: #8e9297; font-size: 12px;\">Do not share this code with anyone, including Discord staff.</p>\n            <div style=\"margin-top: 14px; padding: 8px 12px; background: #3b2d18; border: 1px solid #f59e0b; border-radius: 6px; font-size: 12px; color: #fbbf24;\">\n              ⚠️ DEMO DATA: Simulated Discord OTP token.\n            </div>\n          </div>\n        ",
+      "verificationCode": "483554",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "190428ce-3631-4210-98b0-99a7c4a32f2d",
+      "inboxAddress": "frost.mail3372@1secmail.com",
+      "from": "Discord Verification <verify@discord.com>",
+      "fromName": "Discord",
+      "to": "frost.mail3372@1secmail.com",
+      "subject": "Your Discord security token: 359369 [DEMO]",
+      "date": "2026-10-28T08:08:54.931Z",
+      "textBody": "Your verification code is: 359369. This is a simulated test message.",
+      "htmlBody": "\n          <div style=\"font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 500px; padding: 24px; background: #2f3136; color: #dcddde; border-radius: 8px;\">\n            <h2 style=\"color: #ffffff; margin-top: 0; font-size: 20px;\">Hey Gamer!</h2>\n            <p style=\"color: #b9bbbe; font-size: 14px;\">Someone tried logging into your Discord account from an unrecognized location. Here is your authentication code:</p>\n            <div style=\"background: #202225; padding: 16px; border-radius: 6px; text-align: center; font-size: 30px; font-weight: bold; letter-spacing: 6px; color: #5865f2; margin: 16px 0;\">\n              359369\n            </div>\n            <p style=\"color: #8e9297; font-size: 12px;\">Do not share this code with anyone, including Discord staff.</p>\n            <div style=\"margin-top: 14px; padding: 8px 12px; background: #3b2d18; border: 1px solid #f59e0b; border-radius: 6px; font-size: 12px; color: #fbbf24;\">\n              ⚠️ DEMO DATA: Simulated Discord OTP token.\n            </div>\n          </div>\n        ",
+      "verificationCode": "359369",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "91f2cd0c-389a-431b-8010-c8cf482dcfca",
+      "inboxAddress": "frost.mail3372@1secmail.com",
+      "from": "GitHub Support <support@github.com>",
+      "fromName": "GitHub",
+      "to": "frost.mail3372@1secmail.com",
+      "subject": "[GitHub] Please verify your device - Code: 171458 [DEMO]",
+      "date": "2026-10-28T08:08:51.759Z",
+      "textBody": "Your verification code is: 171458. This is a simulated test message.",
+      "htmlBody": "\n          <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; max-width: 520px; padding: 24px; border: 1px solid #d0d7de; border-radius: 6px;\">\n            <div style=\"font-size: 18px; font-weight: 600; color: #1f2328; margin-bottom: 12px;\">Hey developer!</div>\n            <p style=\"color: #656d76; font-size: 14px;\">A sign-in attempt was detected from a new browser. Enter this single-use code to authorize your session:</p>\n            <div style=\"background: #f6f8fa; padding: 16px; border-radius: 6px; text-align: center; font-size: 28px; font-weight: bold; letter-spacing: 6px; color: #0969da; margin: 16px 0;\">\n              171458\n            </div>\n            <p style=\"color: #656d76; font-size: 12px;\">Device: Chrome on Android &bull; Location: Cloud Testing Sandbox</p>\n            <div style=\"margin-top: 14px; padding: 8px 12px; background: #fef3c7; border: 1px solid #f59e0b; border-radius: 6px; font-size: 12px; color: #92400e;\">\n              ⚠️ DEMO DATA: Simulated GitHub authorization token.\n            </div>\n          </div>\n        ",
+      "verificationCode": "171458",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "1493fc27-c482-487f-ad82-48c9ca7664e3",
+      "inboxAddress": "frost.mail3372@1secmail.com",
+      "from": "Discord Verification <verify@discord.com>",
+      "fromName": "Discord",
+      "to": "frost.mail3372@1secmail.com",
+      "subject": "Your Discord security token: 820895 [DEMO]",
+      "date": "2026-10-28T08:08:46.405Z",
+      "textBody": "Your verification code is: 820895. This is a simulated test message.",
+      "htmlBody": "\n          <div style=\"font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 500px; padding: 24px; background: #2f3136; color: #dcddde; border-radius: 8px;\">\n            <h2 style=\"color: #ffffff; margin-top: 0; font-size: 20px;\">Hey Gamer!</h2>\n            <p style=\"color: #b9bbbe; font-size: 14px;\">Someone tried logging into your Discord account from an unrecognized location. Here is your authentication code:</p>\n            <div style=\"background: #202225; padding: 16px; border-radius: 6px; text-align: center; font-size: 30px; font-weight: bold; letter-spacing: 6px; color: #5865f2; margin: 16px 0;\">\n              820895\n            </div>\n            <p style=\"color: #8e9297; font-size: 12px;\">Do not share this code with anyone, including Discord staff.</p>\n            <div style=\"margin-top: 14px; padding: 8px 12px; background: #3b2d18; border: 1px solid #f59e0b; border-radius: 6px; font-size: 12px; color: #fbbf24;\">\n              ⚠️ DEMO DATA: Simulated Discord OTP token.\n            </div>\n          </div>\n        ",
+      "verificationCode": "820895",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "d8446ffc-d9b6-4188-b165-bfeb8f1ba3e4",
+      "inboxAddress": "frost.mail3372@1secmail.com",
+      "from": "Discord Verification <verify@discord.com>",
+      "fromName": "Discord",
+      "to": "frost.mail3372@1secmail.com",
+      "subject": "Your Discord security token: 157187 [DEMO]",
+      "date": "2026-10-28T08:08:40.356Z",
+      "textBody": "Your verification code is: 157187. This is a simulated test message.",
+      "htmlBody": "\n          <div style=\"font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 500px; padding: 24px; background: #2f3136; color: #dcddde; border-radius: 8px;\">\n            <h2 style=\"color: #ffffff; margin-top: 0; font-size: 20px;\">Hey Gamer!</h2>\n            <p style=\"color: #b9bbbe; font-size: 14px;\">Someone tried logging into your Discord account from an unrecognized location. Here is your authentication code:</p>\n            <div style=\"background: #202225; padding: 16px; border-radius: 6px; text-align: center; font-size: 30px; font-weight: bold; letter-spacing: 6px; color: #5865f2; margin: 16px 0;\">\n              157187\n            </div>\n            <p style=\"color: #8e9297; font-size: 12px;\">Do not share this code with anyone, including Discord staff.</p>\n            <div style=\"margin-top: 14px; padding: 8px 12px; background: #3b2d18; border: 1px solid #f59e0b; border-radius: 6px; font-size: 12px; color: #fbbf24;\">\n              ⚠️ DEMO DATA: Simulated Discord OTP token.\n            </div>\n          </div>\n        ",
+      "verificationCode": "157187",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "925e1440-4e31-4894-b471-eed50e86ac3e",
+      "inboxAddress": "frost.mail3372@1secmail.com",
+      "from": "Google Security <no-reply@accounts.google.com>",
+      "fromName": "Google Accounts",
+      "to": "frost.mail3372@1secmail.com",
+      "subject": "Your Google verification code is 562622 [DEMO]",
+      "date": "2026-10-28T07:55:59.936Z",
+      "textBody": "Your verification code is: 562622. This is a simulated test message.",
+      "htmlBody": "\n          <div style=\"font-family: Roboto, Arial, sans-serif; max-width: 500px; padding: 24px; border: 1px solid #e0e0e0; border-radius: 8px;\">\n            <div style=\"font-size: 20px; font-weight: 500; color: #202124; margin-bottom: 16px;\">Verify your identity</div>\n            <p style=\"color: #5f6368; font-size: 14px;\">Use the following code to complete your two-step verification:</p>\n            <div style=\"font-size: 32px; font-weight: 700; color: #1a73e8; letter-spacing: 4px; padding: 12px 0;\">562622</div>\n            <p style=\"color: #70757a; font-size: 12px; margin-top: 16px;\">This code expires in 10 minutes. If you did not request this, please disregard.</p>\n            <div style=\"margin-top: 16px; padding: 8px 12px; background: #fef3c7; border: 1px solid #f59e0b; border-radius: 6px; font-size: 12px; color: #92400e;\">\n              ⚠️ DEMO DATA: This is a simulated test message generated for verification testing.\n            </div>\n          </div>\n        ",
+      "verificationCode": "562622",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "38a9b4af-7c84-4851-81d6-c2cc4b1bcc05",
+      "inboxAddress": "frost.mail3372@1secmail.com",
+      "from": "EXTRA MAIL System <welcome@extramail.live>",
+      "fromName": "EXTRA MAIL Concierge",
+      "to": "frost.mail3372@1secmail.com",
+      "subject": "✨ Welcome to EXTRA MAIL - Your secure disposable address is ready",
+      "date": "2026-10-28T07:55:40.770Z",
+      "textBody": "Welcome to EXTRA MAIL!\n\nYour temporary email address is: frost.mail3372@1secmail.com\n\nKey Features:\n- Instant auto-refresh every 5 seconds\n- Automatic OTP & verification code extraction\n- Shareable reference links to collaborate or inspect inboxes\n- Military-grade HTML sanitization\n\nEnjoy spam-free communication!",
+      "htmlBody": "\n        <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; max-width: 600px; margin: 0 auto; line-height: 1.6;\">\n          <div style=\"background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); padding: 24px; border-radius: 12px 12px 0 0; text-align: center;\">\n            <h1 style=\"color: #ffffff; margin: 0; font-size: 24px; font-weight: 700; letter-spacing: -0.5px;\">EXTRA MAIL</h1>\n            <p style=\"color: #e0e7ff; margin: 6px 0 0 0; font-size: 14px;\">Instant Disposable Temporary Email System</p>\n          </div>\n          <div style=\"padding: 24px; background: #ffffff; border: 1px solid #e2e8f0; border-top: none; border-radius: 0 0 12px 12px;\">\n            <p style=\"font-size: 16px; margin-top: 0;\">Hello there,</p>\n            <p>Your private temporary email address has been successfully provisioned and is active:</p>\n            <div style=\"background: #f1f5f9; padding: 14px; border-radius: 8px; border-left: 4px solid #7c3aed; font-family: monospace; font-size: 16px; font-weight: 600; color: #4338ca; word-break: break-all;\">\n              frost.mail3372@1secmail.com\n            </div>\n            <h3 style=\"color: #0f172a; margin-top: 24px; font-size: 16px;\">What you can do right now:</h3>\n            <ul style=\"color: #475569; padding-left: 20px;\">\n              <li>Use this address on any registration form, newsletter, or trial.</li>\n              <li>Incoming messages will arrive in real-time with zero delay.</li>\n              <li>Any verification codes (OTP) will be automatically detected and highlighted.</li>\n              <li>Click <strong>Share Reference Link</strong> to share this inbox securely.</li>\n            </ul>\n            <div style=\"margin-top: 24px; padding: 14px; background: #faf5ff; border: 1px dashed #d8b4fe; border-radius: 8px;\">\n              <span style=\"font-weight: 600; color: #6b21a8;\">💡 Pro Tip:</span>\n              <span style=\"color: #581c87; font-size: 14px;\"> Need a demo verification message? Click the <strong>Send Test Email</strong> button in the toolbar to simulate real authentication flows!</span>\n            </div>\n          </div>\n        </div>\n      ",
+      "verificationCode": "EXT-7890",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "06fb14d7-0e63-41b2-a226-0baf48ca742e",
+      "inboxAddress": "vivid.spark6219@kzccv.com",
+      "from": "EXTRA MAIL System <welcome@extramail.live>",
+      "fromName": "EXTRA MAIL Concierge",
+      "to": "vivid.spark6219@kzccv.com",
+      "subject": "✨ Welcome to EXTRA MAIL - Your secure disposable address is ready",
+      "date": "2026-10-28T08:09:02.646Z",
+      "textBody": "Welcome to EXTRA MAIL!\n\nYour temporary email address is: vivid.spark6219@kzccv.com\n\nKey Features:\n- Instant auto-refresh every 5 seconds\n- Automatic OTP & verification code extraction\n- Shareable reference links to collaborate or inspect inboxes\n- Military-grade HTML sanitization\n\nEnjoy spam-free communication!",
+      "htmlBody": "\n        <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; max-width: 600px; margin: 0 auto; line-height: 1.6;\">\n          <div style=\"background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); padding: 24px; border-radius: 12px 12px 0 0; text-align: center;\">\n            <h1 style=\"color: #ffffff; margin: 0; font-size: 24px; font-weight: 700; letter-spacing: -0.5px;\">EXTRA MAIL</h1>\n            <p style=\"color: #e0e7ff; margin: 6px 0 0 0; font-size: 14px;\">Instant Disposable Temporary Email System</p>\n          </div>\n          <div style=\"padding: 24px; background: #ffffff; border: 1px solid #e2e8f0; border-top: none; border-radius: 0 0 12px 12px;\">\n            <p style=\"font-size: 16px; margin-top: 0;\">Hello there,</p>\n            <p>Your private temporary email address has been successfully provisioned and is active:</p>\n            <div style=\"background: #f1f5f9; padding: 14px; border-radius: 8px; border-left: 4px solid #7c3aed; font-family: monospace; font-size: 16px; font-weight: 600; color: #4338ca; word-break: break-all;\">\n              vivid.spark6219@kzccv.com\n            </div>\n            <h3 style=\"color: #0f172a; margin-top: 24px; font-size: 16px;\">What you can do right now:</h3>\n            <ul style=\"color: #475569; padding-left: 20px;\">\n              <li>Use this address on any registration form, newsletter, or trial.</li>\n              <li>Incoming messages will arrive in real-time with zero delay.</li>\n              <li>Any verification codes (OTP) will be automatically detected and highlighted.</li>\n              <li>Click <strong>Share Reference Link</strong> to share this inbox securely.</li>\n            </ul>\n            <div style=\"margin-top: 24px; padding: 14px; background: #faf5ff; border: 1px dashed #d8b4fe; border-radius: 8px;\">\n              <span style=\"font-weight: 600; color: #6b21a8;\">💡 Pro Tip:</span>\n              <span style=\"color: #581c87; font-size: 14px;\"> Need a demo verification message? Click the <strong>Send Test Email</strong> button in the toolbar to simulate real authentication flows!</span>\n            </div>\n          </div>\n        </div>\n      ",
+      "verificationCode": "EXT-7890",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "c9b987ca-fc2b-4d3b-855f-b3cc262d62e3",
+      "inboxAddress": "vivid.spark6219@1secmail.net",
+      "from": "EXTRA MAIL System <welcome@extramail.live>",
+      "fromName": "EXTRA MAIL Concierge",
+      "to": "vivid.spark6219@1secmail.net",
+      "subject": "✨ Welcome to EXTRA MAIL - Your secure disposable address is ready",
+      "date": "2026-10-28T08:09:02.649Z",
+      "textBody": "Welcome to EXTRA MAIL!\n\nYour temporary email address is: vivid.spark6219@1secmail.net\n\nKey Features:\n- Instant auto-refresh every 5 seconds\n- Automatic OTP & verification code extraction\n- Shareable reference links to collaborate or inspect inboxes\n- Military-grade HTML sanitization\n\nEnjoy spam-free communication!",
+      "htmlBody": "\n        <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; max-width: 600px; margin: 0 auto; line-height: 1.6;\">\n          <div style=\"background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); padding: 24px; border-radius: 12px 12px 0 0; text-align: center;\">\n            <h1 style=\"color: #ffffff; margin: 0; font-size: 24px; font-weight: 700; letter-spacing: -0.5px;\">EXTRA MAIL</h1>\n            <p style=\"color: #e0e7ff; margin: 6px 0 0 0; font-size: 14px;\">Instant Disposable Temporary Email System</p>\n          </div>\n          <div style=\"padding: 24px; background: #ffffff; border: 1px solid #e2e8f0; border-top: none; border-radius: 0 0 12px 12px;\">\n            <p style=\"font-size: 16px; margin-top: 0;\">Hello there,</p>\n            <p>Your private temporary email address has been successfully provisioned and is active:</p>\n            <div style=\"background: #f1f5f9; padding: 14px; border-radius: 8px; border-left: 4px solid #7c3aed; font-family: monospace; font-size: 16px; font-weight: 600; color: #4338ca; word-break: break-all;\">\n              vivid.spark6219@1secmail.net\n            </div>\n            <h3 style=\"color: #0f172a; margin-top: 24px; font-size: 16px;\">What you can do right now:</h3>\n            <ul style=\"color: #475569; padding-left: 20px;\">\n              <li>Use this address on any registration form, newsletter, or trial.</li>\n              <li>Incoming messages will arrive in real-time with zero delay.</li>\n              <li>Any verification codes (OTP) will be automatically detected and highlighted.</li>\n              <li>Click <strong>Share Reference Link</strong> to share this inbox securely.</li>\n            </ul>\n            <div style=\"margin-top: 24px; padding: 14px; background: #faf5ff; border: 1px dashed #d8b4fe; border-radius: 8px;\">\n              <span style=\"font-weight: 600; color: #6b21a8;\">💡 Pro Tip:</span>\n              <span style=\"color: #581c87; font-size: 14px;\"> Need a demo verification message? Click the <strong>Send Test Email</strong> button in the toolbar to simulate real authentication flows!</span>\n            </div>\n          </div>\n        </div>\n      ",
+      "verificationCode": "EXT-7890",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "ed230edf-6a22-4ac5-9db2-778cb5d727cf",
+      "inboxAddress": "vivid.spark6219@1secmail.com",
+      "from": "EXTRA MAIL System <welcome@extramail.live>",
+      "fromName": "EXTRA MAIL Concierge",
+      "to": "vivid.spark6219@1secmail.com",
+      "subject": "✨ Welcome to EXTRA MAIL - Your secure disposable address is ready",
+      "date": "2026-10-28T08:09:02.653Z",
+      "textBody": "Welcome to EXTRA MAIL!\n\nYour temporary email address is: vivid.spark6219@1secmail.com\n\nKey Features:\n- Instant auto-refresh every 5 seconds\n- Automatic OTP & verification code extraction\n- Shareable reference links to collaborate or inspect inboxes\n- Military-grade HTML sanitization\n\nEnjoy spam-free communication!",
+      "htmlBody": "\n        <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; max-width: 600px; margin: 0 auto; line-height: 1.6;\">\n          <div style=\"background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); padding: 24px; border-radius: 12px 12px 0 0; text-align: center;\">\n            <h1 style=\"color: #ffffff; margin: 0; font-size: 24px; font-weight: 700; letter-spacing: -0.5px;\">EXTRA MAIL</h1>\n            <p style=\"color: #e0e7ff; margin: 6px 0 0 0; font-size: 14px;\">Instant Disposable Temporary Email System</p>\n          </div>\n          <div style=\"padding: 24px; background: #ffffff; border: 1px solid #e2e8f0; border-top: none; border-radius: 0 0 12px 12px;\">\n            <p style=\"font-size: 16px; margin-top: 0;\">Hello there,</p>\n            <p>Your private temporary email address has been successfully provisioned and is active:</p>\n            <div style=\"background: #f1f5f9; padding: 14px; border-radius: 8px; border-left: 4px solid #7c3aed; font-family: monospace; font-size: 16px; font-weight: 600; color: #4338ca; word-break: break-all;\">\n              vivid.spark6219@1secmail.com\n            </div>\n            <h3 style=\"color: #0f172a; margin-top: 24px; font-size: 16px;\">What you can do right now:</h3>\n            <ul style=\"color: #475569; padding-left: 20px;\">\n              <li>Use this address on any registration form, newsletter, or trial.</li>\n              <li>Incoming messages will arrive in real-time with zero delay.</li>\n              <li>Any verification codes (OTP) will be automatically detected and highlighted.</li>\n              <li>Click <strong>Share Reference Link</strong> to share this inbox securely.</li>\n            </ul>\n            <div style=\"margin-top: 24px; padding: 14px; background: #faf5ff; border: 1px dashed #d8b4fe; border-radius: 8px;\">\n              <span style=\"font-weight: 600; color: #6b21a8;\">💡 Pro Tip:</span>\n              <span style=\"color: #581c87; font-size: 14px;\"> Need a demo verification message? Click the <strong>Send Test Email</strong> button in the toolbar to simulate real authentication flows!</span>\n            </div>\n          </div>\n        </div>\n      ",
+      "verificationCode": "EXT-7890",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "056f9d13-933a-4256-873e-feb5e4c02704",
+      "inboxAddress": "vivid.spark6219@1secmail.org",
+      "from": "EXTRA MAIL System <welcome@extramail.live>",
+      "fromName": "EXTRA MAIL Concierge",
+      "to": "vivid.spark6219@1secmail.org",
+      "subject": "✨ Welcome to EXTRA MAIL - Your secure disposable address is ready",
+      "date": "2026-10-28T08:09:02.655Z",
+      "textBody": "Welcome to EXTRA MAIL!\n\nYour temporary email address is: vivid.spark6219@1secmail.org\n\nKey Features:\n- Instant auto-refresh every 5 seconds\n- Automatic OTP & verification code extraction\n- Shareable reference links to collaborate or inspect inboxes\n- Military-grade HTML sanitization\n\nEnjoy spam-free communication!",
+      "htmlBody": "\n        <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; max-width: 600px; margin: 0 auto; line-height: 1.6;\">\n          <div style=\"background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); padding: 24px; border-radius: 12px 12px 0 0; text-align: center;\">\n            <h1 style=\"color: #ffffff; margin: 0; font-size: 24px; font-weight: 700; letter-spacing: -0.5px;\">EXTRA MAIL</h1>\n            <p style=\"color: #e0e7ff; margin: 6px 0 0 0; font-size: 14px;\">Instant Disposable Temporary Email System</p>\n          </div>\n          <div style=\"padding: 24px; background: #ffffff; border: 1px solid #e2e8f0; border-top: none; border-radius: 0 0 12px 12px;\">\n            <p style=\"font-size: 16px; margin-top: 0;\">Hello there,</p>\n            <p>Your private temporary email address has been successfully provisioned and is active:</p>\n            <div style=\"background: #f1f5f9; padding: 14px; border-radius: 8px; border-left: 4px solid #7c3aed; font-family: monospace; font-size: 16px; font-weight: 600; color: #4338ca; word-break: break-all;\">\n              vivid.spark6219@1secmail.org\n            </div>\n            <h3 style=\"color: #0f172a; margin-top: 24px; font-size: 16px;\">What you can do right now:</h3>\n            <ul style=\"color: #475569; padding-left: 20px;\">\n              <li>Use this address on any registration form, newsletter, or trial.</li>\n              <li>Incoming messages will arrive in real-time with zero delay.</li>\n              <li>Any verification codes (OTP) will be automatically detected and highlighted.</li>\n              <li>Click <strong>Share Reference Link</strong> to share this inbox securely.</li>\n            </ul>\n            <div style=\"margin-top: 24px; padding: 14px; background: #faf5ff; border: 1px dashed #d8b4fe; border-radius: 8px;\">\n              <span style=\"font-weight: 600; color: #6b21a8;\">💡 Pro Tip:</span>\n              <span style=\"color: #581c87; font-size: 14px;\"> Need a demo verification message? Click the <strong>Send Test Email</strong> button in the toolbar to simulate real authentication flows!</span>\n            </div>\n          </div>\n        </div>\n      ",
+      "verificationCode": "EXT-7890",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "37ce7d7b-e0e9-463e-b816-a4aaaacd982b",
+      "inboxAddress": "vivid.spark6219@extramail.live",
+      "from": "EXTRA MAIL System <welcome@extramail.live>",
+      "fromName": "EXTRA MAIL Concierge",
+      "to": "vivid.spark6219@extramail.live",
+      "subject": "✨ Welcome to EXTRA MAIL - Your secure disposable address is ready",
+      "date": "2026-10-28T08:12:31.252Z",
+      "textBody": "Welcome to EXTRA MAIL!\n\nYour temporary email address is: vivid.spark6219@extramail.live\n\nKey Features:\n- Instant auto-refresh every 5 seconds\n- Automatic OTP & verification code extraction\n- Shareable reference links to collaborate or inspect inboxes\n- Military-grade HTML sanitization\n\nEnjoy spam-free communication!",
+      "htmlBody": "\n        <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; max-width: 600px; margin: 0 auto; line-height: 1.6;\">\n          <div style=\"background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); padding: 24px; border-radius: 12px 12px 0 0; text-align: center;\">\n            <h1 style=\"color: #ffffff; margin: 0; font-size: 24px; font-weight: 700; letter-spacing: -0.5px;\">EXTRA MAIL</h1>\n            <p style=\"color: #e0e7ff; margin: 6px 0 0 0; font-size: 14px;\">Instant Disposable Temporary Email System</p>\n          </div>\n          <div style=\"padding: 24px; background: #ffffff; border: 1px solid #e2e8f0; border-top: none; border-radius: 0 0 12px 12px;\">\n            <p style=\"font-size: 16px; margin-top: 0;\">Hello there,</p>\n            <p>Your private temporary email address has been successfully provisioned and is active:</p>\n            <div style=\"background: #f1f5f9; padding: 14px; border-radius: 8px; border-left: 4px solid #7c3aed; font-family: monospace; font-size: 16px; font-weight: 600; color: #4338ca; word-break: break-all;\">\n              vivid.spark6219@extramail.live\n            </div>\n            <h3 style=\"color: #0f172a; margin-top: 24px; font-size: 16px;\">What you can do right now:</h3>\n            <ul style=\"color: #475569; padding-left: 20px;\">\n              <li>Use this address on any registration form, newsletter, or trial.</li>\n              <li>Incoming messages will arrive in real-time with zero delay.</li>\n              <li>Any verification codes (OTP) will be automatically detected and highlighted.</li>\n              <li>Click <strong>Share Reference Link</strong> to share this inbox securely.</li>\n            </ul>\n            <div style=\"margin-top: 24px; padding: 14px; background: #faf5ff; border: 1px dashed #d8b4fe; border-radius: 8px;\">\n              <span style=\"font-weight: 600; color: #6b21a8;\">💡 Pro Tip:</span>\n              <span style=\"color: #581c87; font-size: 14px;\"> Need a demo verification message? Click the <strong>Send Test Email</strong> button in the toolbar to simulate real authentication flows!</span>\n            </div>\n          </div>\n        </div>\n      ",
+      "verificationCode": "EXT-7890",
+      "isDemo": true,
+      "read": false
+    },
+    {
+      "id": "58edf808-8a67-4b07-bada-93971bfb8028",
+      "inboxAddress": "sonia5727@1secmail.com",
+      "from": "EXTRA MAIL System <welcome@extramail.live>",
+      "fromName": "EXTRA MAIL Concierge",
+      "to": "sonia5727@1secmail.com",
+      "subject": "✨ Welcome to EXTRA MAIL - Your secure disposable address is ready",
+      "date": "2026-10-28T08:13:43.759Z",
+      "textBody": "Welcome to EXTRA MAIL!\n\nYour temporary email address is: sonia5727@1secmail.com\n\nKey Features:\n- Instant auto-refresh every 5 seconds\n- Automatic OTP & verification code extraction\n- Shareable reference links to collaborate or inspect inboxes\n- Military-grade HTML sanitization\n\nEnjoy spam-free communication!",
+      "htmlBody": "\n        <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; max-width: 600px; margin: 0 auto; line-height: 1.6;\">\n          <div style=\"background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); padding: 24px; border-radius: 12px 12px 0 0; text-align: center;\">\n            <h1 style=\"color: #ffffff; margin: 0; font-size: 24px; font-weight: 700; letter-spacing: -0.5px;\">EXTRA MAIL</h1>\n            <p style=\"color: #e0e7ff; margin: 6px 0 0 0; font-size: 14px;\">Instant Disposable Temporary Email System</p>\n          </div>\n          <div style=\"padding: 24px; background: #ffffff; border: 1px solid #e2e8f0; border-top: none; border-radius: 0 0 12px 12px;\">\n            <p style=\"font-size: 16px; margin-top: 0;\">Hello there,</p>\n            <p>Your private temporary email address has been successfully provisioned and is active:</p>\n            <div style=\"background: #f1f5f9; padding: 14px; border-radius: 8px; border-left: 4px solid #7c3aed; font-family: monospace; font-size: 16px; font-weight: 600; color: #4338ca; word-break: break-all;\">\n              sonia5727@1secmail.com\n            </div>\n            <h3 style=\"color: #0f172a; margin-top: 24px; font-size: 16px;\">What you can do right now:</h3>\n            <ul style=\"color: #475569; padding-left: 20px;\">\n              <li>Use this address on any registration form, newsletter, or trial.</li>\n              <li>Incoming messages will arrive in real-time with zero delay.</li>\n              <li>Any verification codes (OTP) will be automatically detected and highlighted.</li>\n              <li>Click <strong>Share Reference Link</strong> to share this inbox securely.</li>\n            </ul>\n            <div style=\"margin-top: 24px; padding: 14px; background: #faf5ff; border: 1px dashed #d8b4fe; border-radius: 8px;\">\n              <span style=\"font-weight: 600; color: #6b21a8;\">💡 Pro Tip:</span>\n              <span style=\"color: #581c87; font-size: 14px;\"> Need a demo verification message? Click the <strong>Send Test Email</strong> button in the toolbar to simulate real authentication flows!</span>\n            </div>\n          </div>\n        </div>\n      ",
+      "verificationCode": "EXT-7890",
+      "isDemo": true,
+      "read": false
+    }
+  ],
+  "contacts": [],
+  "stats": {
+    "totalInboxesCreated": 15,
+    "totalEmailsReceived": 10
+  }
+}

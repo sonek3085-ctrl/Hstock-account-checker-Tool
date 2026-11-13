@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_example",
+      "name": "Platform Admin",
+      "email": "admin@example.com",
+      "phone": "+920000000000",
+      "passwordHash": "REPLACE_WITH_SCRYPT_HASH_ON_FIRST_BOOT",
+      "role": "admin",
+      "balance": 0,
+      "totalDeposited": 0,
+      "totalSpent": 0,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "status": "active",
+      "emailVerified": true
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-USDT-EXAMPLE",
+      "userId": "usr_client_example",
+      "userName": "Example Client",
+      "userEmail": "client@example.com",
+      "amountUsd": 10.0,
+      "currency": "USDT",
+      "network": "BEP20",
+      "receivingAddress": "YOUR_BEP20_RECEIVING_WALLET",
+      "transactionId": "0x_EXAMPLE_TRANSACTION_HASH",
+      "blockchainStatus": "CONFIRMED",
+      "confirmations": 20,
+      "status": "APPROVED",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "batches": [],
+  "tickets": [],
+  "transactions": [],
+  "shares": [],
+  "settings": {
+    "usdtWalletAddress": "YOUR_BEP20_RECEIVING_WALLET",
+    "usdtNetwork": "BNB Smart Chain (BEP20)",
+    "minDepositUsd": 1.0,
+    "maxDepositUsd": 100.0,
+    "usdtTokenContract": "0x55d398326f99059fF775485246999027B3197955",
+    "bscRpcUrl": "https://bsc-dataseed.binance.org/",
+    "rateLiveness": 0.0025,
+    "rateDetails": 0.0035,
+    "youtubeApiKey": "",
+    "metaGraphToken": "",
+    "threadsToken": "",
+    "githubToken": "",
+    "twitterBearerToken": "",
+    "telegramBotToken": "",
+    "maintenanceMode": false,
+    "cloudflareEnabled": true,
+    "cloudflareSecurityLevel": "medium",
+    "cloudflareBotFightMode": true,
+    "rateLimitPerMin": 120
+  }
+}

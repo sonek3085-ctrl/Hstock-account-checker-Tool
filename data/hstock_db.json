@@ -1,0 +1,774 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_usman",
+      "name": "Muhammad Usman Yousaf",
+      "email": "usmanchandio079@gmail.com",
+      "phone": "03131664235",
+      "passwordHash": "admin12345",
+      "role": "admin",
+      "balance": 100,
+      "totalDeposited": 100,
+      "totalSpent": 0,
+      "createdAt": "2026-11-05T09:46:37.012Z",
+      "status": "active",
+      "emailVerified": true,
+      "walletBalance": 999999
+    },
+    {
+      "id": "usr_demo_client",
+      "name": "Demo Client",
+      "email": "client@hstock.com",
+      "phone": "03001234567",
+      "passwordHash": "client123",
+      "role": "user",
+      "balance": 20,
+      "totalDeposited": 20,
+      "totalSpent": 0,
+      "createdAt": "2026-11-05T09:46:37.012Z",
+      "status": "active",
+      "emailVerified": true
+    },
+    {
+      "id": "usr_admin_usman_hstock",
+      "name": "Muhammad Usman Yousaf (Admin)",
+      "email": "usmanalikhanchandio@gmail.com",
+      "role": "admin",
+      "passwordHash": "admin12345",
+      "walletBalance": 999999,
+      "status": "active",
+      "createdAt": "2026-11-11T11:34:44.162Z",
+      "balance": 999999,
+      "totalDeposited": 999999,
+      "totalSpent": 0
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-USDT-9901",
+      "userId": "usr_demo_client",
+      "userName": "Demo Client",
+      "userEmail": "client@hstock.com",
+      "amountUsd": 20,
+      "currency": "USDT",
+      "network": "BEP20",
+      "receivingAddress": "0xe7d33cb98982b45e3f4d80c71239cb6b3dfef8ef",
+      "transactionId": "0x5c72a819bdf392740a8d492610a28f73a98d36184920b7218490a61283749102",
+      "blockchainStatus": "CONFIRMED",
+      "confirmations": 45,
+      "blockNumber": 38291042,
+      "status": "APPROVED",
+      "createdAt": "2026-11-08T12:00:00.000Z",
+      "reviewedAt": "2026-11-08T12:05:00.000Z",
+      "reviewedBy": "Muhammad Usman Yousaf"
+    }
+  ],
+  "batches": [
+    {
+      "id": "BATCH-MWC1P8IX",
+      "userId": "usr_admin_usman_hstock",
+      "timestamp": "2026-11-11T11:38:16.041Z",
+      "platform": "telegram",
+      "mode": "liveness",
+      "accountsCount": 2,
+      "cost": 0,
+      "liveCount": 1,
+      "deadCount": 1,
+      "bannedCount": 0,
+      "unverifiedCount": 0,
+      "apiBlockedCount": 0,
+      "results": [
+        {
+          "id": "res_1794397096040_mo8r31",
+          "platform": "telegram",
+          "handle": "durov",
+          "rawInput": "durov",
+          "url": "https://t.me/durov",
+          "status": "ACCOUNT_FOUND",
+          "mode": "liveness",
+          "details": "Telegram verified LIVE: @durov found (Pavel Durov • 10 041 282 subscribers) with profile picture confirmed.",
+          "statusCode": 200,
+          "latencyMs": 795,
+          "checkedAt": "2026-11-11T11:38:16.040Z",
+          "avatarUrl": "https://cdn4.telesco.pe/file/GRiNww0Y4T9MDnDzQ6dBIkf75z4SuO_26qO0YEA5aQnzE1oZLZGngrhqQMk-KrCzzuqka_l9KZreoEAxUaeNCOqQzUzw80Jhddvjiy4PM18TZ42H1BDentPx4K1D5xzUDbeh-071Y6vKAs5hcs4cfFc4IdIdfCINnFntb597-v6xOYnuklbCk_rJQtlPjY6-8tN7dZ6MuaTIXg1Jyo81NfNjWAr_1_MRnEJ_9ORO3X5X8srlmvAOcG5-3hZPJt7cVPdAO_Q3gL7sms0JGGSdHUWvrhXdRFJ2Se_ak8HjH0EzXgURkwpWwpmVdJPky94YJv_OY9AP9x1Ipfbpi5qEsw.jpg",
+          "name": "Pavel Durov",
+          "followers": "10 041 282 subscribers"
+        },
+        {
+          "id": "res_1794397096041_wp6a7m",
+          "platform": "telegram",
+          "handle": "fake_nonexistent_tg_88827181",
+          "rawInput": "fake_nonexistent_tg_88827181",
+          "url": "https://t.me/fake_nonexistent_tg_88827181",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "Telegram confirmed: Username @fake_nonexistent_tg_88827181 is not registered or does not exist.",
+          "statusCode": 404,
+          "latencyMs": 794,
+          "checkedAt": "2026-11-11T11:38:16.041Z"
+        }
+      ]
+    },
+    {
+      "id": "BATCH-MWC1P23P",
+      "userId": "usr_admin_usman_hstock",
+      "timestamp": "2026-11-11T11:38:07.717Z",
+      "platform": "youtube",
+      "mode": "liveness",
+      "accountsCount": 2,
+      "cost": 0,
+      "liveCount": 1,
+      "deadCount": 1,
+      "bannedCount": 0,
+      "unverifiedCount": 0,
+      "apiBlockedCount": 0,
+      "results": [
+        {
+          "id": "res_1794397087717_shj8ft",
+          "platform": "youtube",
+          "handle": "MrBeast",
+          "rawInput": "MrBeast",
+          "url": "https://www.youtube.com/@MrBeast",
+          "status": "ACCOUNT_FOUND",
+          "mode": "liveness",
+          "details": "YouTube channel confirmed LIVE: \"MrBeast\" (@MrBeast) profile exists and DP is visible.",
+          "statusCode": 200,
+          "latencyMs": 322,
+          "checkedAt": "2026-11-11T11:38:07.717Z",
+          "avatarUrl": "https://yt3.googleusercontent.com/nxYrc_1_2f77DoBadyxMTmv7ZpRZapHR5jbuYe7PlPd5cIRJxtNNEYyOC0ZsxaDyJJzXrnJiuDE=s900-c-k-c0x00ffffff-no-rj",
+          "name": "MrBeast"
+        },
+        {
+          "id": "res_1794397087479_mmk1s4",
+          "platform": "youtube",
+          "handle": "fake_nonexistent_yt_09090909",
+          "rawInput": "fake_nonexistent_yt_09090909",
+          "url": "https://www.youtube.com/@fake_nonexistent_yt_09090909",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "YouTube confirmed HTTP 404: Channel @fake_nonexistent_yt_09090909 does not exist.",
+          "statusCode": 404,
+          "latencyMs": 80,
+          "checkedAt": "2026-11-11T11:38:07.479Z"
+        }
+      ]
+    },
+    {
+      "id": "BATCH-MWC1OVBZ",
+      "userId": "usr_admin_usman_hstock",
+      "timestamp": "2026-11-11T11:37:58.943Z",
+      "platform": "instagram",
+      "mode": "liveness",
+      "accountsCount": 3,
+      "cost": 0,
+      "liveCount": 1,
+      "deadCount": 2,
+      "bannedCount": 0,
+      "unverifiedCount": 0,
+      "apiBlockedCount": 0,
+      "results": [
+        {
+          "id": "res_1794397078943_iph2e8",
+          "platform": "instagram",
+          "handle": "cristiano",
+          "rawInput": "cristiano",
+          "url": "https://www.instagram.com/cristiano",
+          "status": "ACCOUNT_FOUND",
+          "mode": "liveness",
+          "details": "Instagram verified LIVE: \"Cristiano Ronaldo\" (@cristiano • ID: 173560420) profile exists and DP is visible.",
+          "statusCode": 200,
+          "latencyMs": 850,
+          "checkedAt": "2026-11-11T11:37:58.943Z",
+          "avatarUrl": "https://scontent-sin11-2.cdninstagram.com/v/t51.2885-19/472007201_1142000150877579_994350541752907763_n.jpg",
+          "name": "Cristiano Ronaldo",
+          "followers": "681,032,302",
+          "posts": 4154
+        },
+        {
+          "id": "res_1794397078109_yiqo6b",
+          "platform": "instagram",
+          "handle": "nonexistent_fake_ig_88827181",
+          "rawInput": "nonexistent_fake_ig_88827181",
+          "url": "https://www.instagram.com/nonexistent_fake_ig_88827181",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "Instagram confirmed HTTP 404: Account @nonexistent_fake_ig_88827181 does not exist or has been deleted.",
+          "statusCode": 404,
+          "latencyMs": 15,
+          "checkedAt": "2026-11-11T11:37:58.109Z"
+        },
+        {
+          "id": "res_1794397078109_qh8x3p",
+          "platform": "instagram",
+          "handle": "blushangel_8",
+          "rawInput": "blushangel_8",
+          "url": "https://www.instagram.com/blushangel_8",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "Instagram confirmed (HTTP 404): Can't find account with blushangel_8. Try another mobile number or email, or sign up.",
+          "statusCode": 404,
+          "latencyMs": 15,
+          "checkedAt": "2026-11-11T11:37:58.109Z"
+        }
+      ]
+    },
+    {
+      "id": "BATCH-MWC1M943",
+      "userId": "usr_admin_usman_hstock",
+      "timestamp": "2026-11-11T11:35:56.835Z",
+      "platform": "instagram",
+      "mode": "liveness",
+      "accountsCount": 2,
+      "cost": 0,
+      "liveCount": 0,
+      "deadCount": 1,
+      "bannedCount": 0,
+      "unverifiedCount": 1,
+      "apiBlockedCount": 0,
+      "results": [
+        {
+          "id": "res_1794396956835_r0t65d",
+          "platform": "instagram",
+          "handle": "cristiano",
+          "rawInput": "cristiano",
+          "url": "https://www.instagram.com/cristiano",
+          "status": "UNVERIFIED",
+          "mode": "liveness",
+          "details": "Instagram HTTP 302 Verification Challenge: Anti-bot challenge encountered. Server was redirected before accessing profile. Status: UNKNOWN. Click \"Verify in Browser\" for direct confirmation.",
+          "statusCode": 302,
+          "latencyMs": 1521,
+          "checkedAt": "2026-11-11T11:35:56.835Z"
+        },
+        {
+          "id": "res_1794396955316_l9hjuy",
+          "platform": "instagram",
+          "handle": "nonexistent_fake_ig_88827181",
+          "rawInput": "nonexistent_fake_ig_88827181",
+          "url": "https://www.instagram.com/nonexistent_fake_ig_88827181",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "Instagram confirmed HTTP 404: Account @nonexistent_fake_ig_88827181 does not exist or has been deleted.",
+          "statusCode": 404,
+          "latencyMs": 15,
+          "checkedAt": "2026-11-11T11:35:55.316Z"
+        }
+      ]
+    },
+    {
+      "id": "BATCH-MWC1M2S6",
+      "userId": "usr_admin_usman_hstock",
+      "timestamp": "2026-11-11T11:35:48.630Z",
+      "platform": "instagram",
+      "mode": "liveness",
+      "accountsCount": 2,
+      "cost": 0,
+      "liveCount": 0,
+      "deadCount": 1,
+      "bannedCount": 0,
+      "unverifiedCount": 1,
+      "apiBlockedCount": 0,
+      "results": [
+        {
+          "id": "res_1794396948630_itr9ov",
+          "platform": "instagram",
+          "handle": "cristiano",
+          "rawInput": "cristiano",
+          "url": "https://www.instagram.com/cristiano",
+          "status": "UNVERIFIED",
+          "mode": "liveness",
+          "details": "Instagram HTTP 302 Verification Challenge: Anti-bot challenge encountered. Server was redirected before accessing profile. Status: UNKNOWN. Click \"Verify in Browser\" for direct confirmation.",
+          "statusCode": 302,
+          "latencyMs": 1728,
+          "checkedAt": "2026-11-11T11:35:48.630Z"
+        },
+        {
+          "id": "res_1794396946924_juibfm",
+          "platform": "instagram",
+          "handle": "nonexistent_fake_ig_88827181",
+          "rawInput": "nonexistent_fake_ig_88827181",
+          "url": "https://www.instagram.com/nonexistent_fake_ig_88827181",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "Instagram confirmed HTTP 404: Account @nonexistent_fake_ig_88827181 does not exist or has been deleted.",
+          "statusCode": 404,
+          "latencyMs": 15,
+          "checkedAt": "2026-11-11T11:35:46.924Z"
+        }
+      ]
+    },
+    {
+      "id": "BATCH-MWAOLKQ9",
+      "userId": "usr_admin_usman",
+      "timestamp": "2026-11-10T12:43:44.049Z",
+      "platform": "telegram",
+      "mode": "liveness",
+      "accountsCount": 2,
+      "cost": 0,
+      "liveCount": 1,
+      "deadCount": 1,
+      "bannedCount": 0,
+      "unverifiedCount": 0,
+      "apiBlockedCount": 0,
+      "balanceAfter": 100,
+      "results": [
+        {
+          "id": "res_1794314623308_rm094q",
+          "platform": "telegram",
+          "handle": "this_user_does_not_exist_at_all_991823",
+          "rawInput": "this_user_does_not_exist_at_all_991823",
+          "url": "https://t.me/this_user_does_not_exist_at_all_991823",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "Invalid Telegram username syntax (must be 3-32 alphanumeric characters or underscores).",
+          "statusCode": 400,
+          "latencyMs": 15,
+          "checkedAt": "2026-11-10T12:43:43.308Z"
+        },
+        {
+          "id": "res_1794314624049_sy35h4",
+          "platform": "telegram",
+          "handle": "durov",
+          "rawInput": "durov",
+          "url": "https://t.me/durov",
+          "status": "ACCOUNT_FOUND",
+          "mode": "liveness",
+          "details": "Telegram verified LIVE: @durov found (Pavel Durov • 10 059 029 subscribers) with profile picture confirmed.",
+          "statusCode": 200,
+          "latencyMs": 743,
+          "checkedAt": "2026-11-10T12:43:44.049Z",
+          "avatarUrl": "https://cdn4.telesco.pe/file/O_sp0Rq0E47AWOidAn_IiVHyO7mjXyz39tZDxr_Yx9tp5lYnfHVFrCy-9lJa_zK0rwtFp7Z46PS2Td0pLm2oazt-PRhOTdMjKZHiNs-ZRnmZyUcY2AB3uxyLjuOmQZOi-s69CaD17yfir5QWGqXToAGZZMcrFagxBE0AUss293QncIHWNagFYqEGYVqC2pfbAYGTfb27K9XlT001ob3MphROuw4QfBzgLBOOzQyVTE0Xy1YXElN4pB6tjGQBpy6-IKQTjUunLeIqQ-I10biBjvZuTrHBHTktbThgbGObjsXXIERYYZImKfOxWASvYvDSzdrEJiIQWalASL8lwCj_1g.jpg",
+          "name": "Pavel Durov",
+          "followers": "10 059 029 subscribers"
+        }
+      ]
+    },
+    {
+      "id": "BATCH-MWAOLFQV",
+      "userId": "usr_admin_usman",
+      "timestamp": "2026-11-10T12:43:37.591Z",
+      "platform": "instagram",
+      "mode": "liveness",
+      "accountsCount": 2,
+      "cost": 0,
+      "liveCount": 0,
+      "deadCount": 1,
+      "bannedCount": 0,
+      "unverifiedCount": 0,
+      "apiBlockedCount": 1,
+      "balanceAfter": 100,
+      "results": [
+        {
+          "id": "res_1794314615913_8k8myq",
+          "platform": "instagram",
+          "handle": "blushangel_8",
+          "rawInput": "blushangel_8",
+          "url": "https://www.instagram.com/blushangel_8",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "Instagram confirmed (HTTP 404): Can't find account with blushangel_8. Try another mobile number or email, or sign up.",
+          "statusCode": 404,
+          "latencyMs": 15,
+          "checkedAt": "2026-11-10T12:43:35.913Z"
+        },
+        {
+          "id": "res_1794314617591_5okvlh",
+          "platform": "instagram",
+          "handle": "not_an_account_99818274",
+          "rawInput": "not_an_account_99818274",
+          "url": "https://www.instagram.com/not_an_account_99818274",
+          "status": "API_BLOCKED",
+          "mode": "liveness",
+          "details": "Instagram HTTP 302 API Barrier: Anti-bot challenge triggered by platform firewall (is_from_rle/challenge). Server was redirected before accessing profile. NOT a suspended or deleted account. Click \"Verify in Browser\" for direct confirmation.",
+          "statusCode": 302,
+          "latencyMs": 1680,
+          "checkedAt": "2026-11-10T12:43:37.591Z"
+        }
+      ]
+    },
+    {
+      "id": "BATCH-MWAOL3WB",
+      "userId": "usr_admin_usman",
+      "timestamp": "2026-11-10T12:43:22.235Z",
+      "platform": "github",
+      "mode": "details",
+      "accountsCount": 2,
+      "cost": 0,
+      "liveCount": 1,
+      "deadCount": 1,
+      "bannedCount": 0,
+      "unverifiedCount": 0,
+      "apiBlockedCount": 0,
+      "balanceAfter": 100,
+      "results": [
+        {
+          "id": "res_1794314602234_xcp7hk",
+          "platform": "github",
+          "handle": "torvalds",
+          "rawInput": "torvalds",
+          "url": "https://github.com/torvalds",
+          "status": "ACCOUNT_FOUND",
+          "mode": "details",
+          "details": "GitHub verified LIVE: Linus Torvalds (@torvalds) exists with visible DP (331571 followers, 12 repos).",
+          "statusCode": 200,
+          "latencyMs": 23,
+          "checkedAt": "2026-11-10T12:43:22.234Z",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1024025?v=4",
+          "name": "Linus Torvalds",
+          "followers": 331571,
+          "following": 0,
+          "posts": 12
+        },
+        {
+          "id": "res_1794314602235_tqnyw8",
+          "platform": "github",
+          "handle": "nonexistent_dev_9928198273",
+          "rawInput": "nonexistent_dev_9928198273",
+          "url": "https://github.com/nonexistent_dev_9928198273",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "details",
+          "details": "GitHub API confirmed HTTP 404: User @nonexistent_dev_9928198273 does not exist.",
+          "statusCode": 404,
+          "latencyMs": 22,
+          "checkedAt": "2026-11-10T12:43:22.235Z"
+        }
+      ]
+    },
+    {
+      "id": "BATCH-MWAOKZ5G",
+      "userId": "usr_admin_usman",
+      "timestamp": "2026-11-10T12:43:16.084Z",
+      "platform": "github",
+      "mode": "details",
+      "accountsCount": 2,
+      "cost": 0,
+      "liveCount": 1,
+      "deadCount": 1,
+      "bannedCount": 0,
+      "unverifiedCount": 0,
+      "apiBlockedCount": 0,
+      "balanceAfter": 100,
+      "results": [
+        {
+          "id": "res_1794314596080_hg1v3q",
+          "platform": "github",
+          "handle": "torvalds",
+          "rawInput": "torvalds",
+          "url": "https://github.com/torvalds",
+          "status": "ACCOUNT_FOUND",
+          "mode": "details",
+          "details": "GitHub verified LIVE: Linus Torvalds (@torvalds) exists with visible DP (331571 followers, 12 repos).",
+          "statusCode": 200,
+          "latencyMs": 34,
+          "checkedAt": "2026-11-10T12:43:16.080Z",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1024025?v=4",
+          "name": "Linus Torvalds",
+          "followers": 331571,
+          "following": 0,
+          "posts": 12
+        },
+        {
+          "id": "res_1794314596084_dvoyaf",
+          "platform": "github",
+          "handle": "nonexistent_dev_9928198273",
+          "rawInput": "nonexistent_dev_9928198273",
+          "url": "https://github.com/nonexistent_dev_9928198273",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "details",
+          "details": "GitHub API confirmed HTTP 404: User @nonexistent_dev_9928198273 does not exist.",
+          "statusCode": 404,
+          "latencyMs": 35,
+          "checkedAt": "2026-11-10T12:43:16.084Z"
+        }
+      ]
+    },
+    {
+      "id": "BATCH-MWAOKU03",
+      "userId": "usr_admin_usman",
+      "timestamp": "2026-11-10T12:43:09.411Z",
+      "platform": "github",
+      "mode": "details",
+      "accountsCount": 2,
+      "cost": 0,
+      "liveCount": 1,
+      "deadCount": 1,
+      "bannedCount": 0,
+      "unverifiedCount": 0,
+      "apiBlockedCount": 0,
+      "balanceAfter": 100,
+      "results": [
+        {
+          "id": "res_1794314589411_916mab",
+          "platform": "github",
+          "handle": "torvalds",
+          "rawInput": "torvalds",
+          "url": "https://github.com/torvalds",
+          "status": "ACCOUNT_FOUND",
+          "mode": "details",
+          "details": "GitHub verified LIVE: Linus Torvalds (@torvalds) exists with visible DP (331571 followers, 12 repos).",
+          "statusCode": 200,
+          "latencyMs": 315,
+          "checkedAt": "2026-11-10T12:43:09.411Z",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1024025?v=4",
+          "name": "Linus Torvalds",
+          "followers": 331571,
+          "following": 0,
+          "posts": 12
+        },
+        {
+          "id": "res_1794314589397_f78m3d",
+          "platform": "github",
+          "handle": "nonexistent_dev_9928198273",
+          "rawInput": "nonexistent_dev_9928198273",
+          "url": "https://github.com/nonexistent_dev_9928198273",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "details",
+          "details": "GitHub API confirmed HTTP 404: User @nonexistent_dev_9928198273 does not exist.",
+          "statusCode": 404,
+          "latencyMs": 299,
+          "checkedAt": "2026-11-10T12:43:09.397Z"
+        }
+      ]
+    },
+    {
+      "id": "BATCH-MWAOKOXN",
+      "userId": "usr_admin_usman",
+      "timestamp": "2026-11-10T12:43:02.843Z",
+      "platform": "youtube",
+      "mode": "liveness",
+      "accountsCount": 3,
+      "cost": 0,
+      "liveCount": 0,
+      "deadCount": 3,
+      "bannedCount": 0,
+      "unverifiedCount": 0,
+      "apiBlockedCount": 0,
+      "balanceAfter": 100,
+      "results": [
+        {
+          "id": "res_1794314582309_e0le15",
+          "platform": "youtube",
+          "handle": "blushangel_8",
+          "rawInput": "blushangel_8",
+          "url": "https://www.youtube.com/@blushangel_8",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "YouTube confirmed HTTP 404: Channel @blushangel_8 does not exist.",
+          "statusCode": 404,
+          "latencyMs": 110,
+          "checkedAt": "2026-11-10T12:43:02.309Z"
+        },
+        {
+          "id": "res_1794314582265_lkh8h1",
+          "platform": "youtube",
+          "handle": "fake_ghost_user_99214",
+          "rawInput": "fake_ghost_user_99214",
+          "url": "https://www.youtube.com/@fake_ghost_user_99214",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "YouTube confirmed HTTP 404: Channel @fake_ghost_user_99214 does not exist.",
+          "statusCode": 404,
+          "latencyMs": 64,
+          "checkedAt": "2026-11-10T12:43:02.265Z"
+        },
+        {
+          "id": "res_1794314582843_x4qmvi",
+          "platform": "youtube",
+          "handle": "youtube",
+          "rawInput": "youtube",
+          "url": "https://www.youtube.com/@youtube",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "YouTube confirmed: Channel @youtube not found.",
+          "statusCode": 404,
+          "latencyMs": 640,
+          "checkedAt": "2026-11-10T12:43:02.843Z"
+        }
+      ]
+    },
+    {
+      "id": "BATCH-MWAOK9R7",
+      "userId": "usr_admin_usman",
+      "timestamp": "2026-11-10T12:42:43.171Z",
+      "platform": "youtube",
+      "mode": "liveness",
+      "accountsCount": 3,
+      "cost": 0,
+      "liveCount": 0,
+      "deadCount": 3,
+      "bannedCount": 0,
+      "unverifiedCount": 0,
+      "apiBlockedCount": 0,
+      "balanceAfter": 100,
+      "results": [
+        {
+          "id": "res_1794314562554_hmves8",
+          "platform": "youtube",
+          "handle": "blushangel_8",
+          "rawInput": "blushangel_8",
+          "url": "https://www.youtube.com/@blushangel_8",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "YouTube confirmed HTTP 404: Channel @blushangel_8 does not exist.",
+          "statusCode": 404,
+          "latencyMs": 109,
+          "checkedAt": "2026-11-10T12:42:42.554Z"
+        },
+        {
+          "id": "res_1794314562548_za32a3",
+          "platform": "youtube",
+          "handle": "fake_ghost_user_99214",
+          "rawInput": "fake_ghost_user_99214",
+          "url": "https://www.youtube.com/@fake_ghost_user_99214",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "YouTube confirmed HTTP 404: Channel @fake_ghost_user_99214 does not exist.",
+          "statusCode": 404,
+          "latencyMs": 86,
+          "checkedAt": "2026-11-10T12:42:42.548Z"
+        },
+        {
+          "id": "res_1794314563171_pxqsbv",
+          "platform": "youtube",
+          "handle": "youtube",
+          "rawInput": "youtube",
+          "url": "https://www.youtube.com/@youtube",
+          "status": "ACCOUNT_NOT_FOUND",
+          "mode": "liveness",
+          "details": "YouTube confirmed: Channel @youtube not found.",
+          "statusCode": 404,
+          "latencyMs": 707,
+          "checkedAt": "2026-11-10T12:42:43.171Z"
+        }
+      ]
+    },
+    {
+      "id": "BATCH-MW7YT00J",
+      "userId": "usr_admin_usman",
+      "timestamp": "2026-11-08T15:06:08.083Z",
+      "platform": "twitter",
+      "mode": "liveness",
+      "accountsCount": 1,
+      "cost": 0,
+      "liveCount": 1,
+      "deadCount": 0,
+      "bannedCount": 0,
+      "unverifiedCount": 0,
+      "apiBlockedCount": 0,
+      "balanceAfter": 100,
+      "results": [
+        {
+          "id": "res_1794150368083_d8nq0p",
+          "platform": "twitter",
+          "handle": "x",
+          "rawInput": "x",
+          "url": "https://x.com/x",
+          "status": "ACCOUNT_FOUND",
+          "mode": "liveness",
+          "details": "Twitter/X server confirmed HTTP 200 OK: Profile @x is live.",
+          "statusCode": 200,
+          "latencyMs": 333,
+          "checkedAt": "2026-11-08T15:06:08.083Z"
+        }
+      ]
+    }
+  ],
+  "tickets": [],
+  "transactions": [
+    {
+      "id": "TXN-USDT-9901",
+      "userId": "usr_demo_client",
+      "userName": "Demo Client",
+      "userEmail": "client@hstock.com",
+      "type": "DEPOSIT",
+      "amountUsd": 20,
+      "balanceBefore": 0,
+      "balanceAfter": 20,
+      "referenceId": "PAY-USDT-9901",
+      "description": "Binance USDT Deposit (BEP20) - On-Chain Confirmed",
+      "timestamp": "2026-11-08T12:05:00.000Z"
+    }
+  ],
+  "shares": [],
+  "shareLinks": [
+    {
+      "id": "SL-PUBLIC-DEFAULT",
+      "code": "USER-PORTAL",
+      "label": "Official Customer Access Link",
+      "bannerText": "Official HSTOCK Account Checker — Verify Email, Deposit USDT (BEP20), View Stored Balance & Check Records.",
+      "isActive": true,
+      "lockedCustomerOnly": true,
+      "clicks": 0,
+      "registrations": 0,
+      "createdAt": "2026-11-13T09:53:00.396Z",
+      "createdBy": "usmanchandio079@gmail.com"
+    }
+  ],
+  "settings": {
+    "usdtWalletAddress": "0xe7d33cb98982b45e3f4d80c71239cb6b3dfef8ef",
+    "usdtNetwork": "BNB Smart Chain (BEP20)",
+    "minDepositUsd": 1,
+    "maxDepositUsd": 100,
+    "usdtTokenContract": "0x55d398326f99059fF775485246999027B3197955",
+    "bscRpcUrl": "https://bsc-dataseed.binance.org/",
+    "rateLiveness": 0.0025,
+    "rateDetails": 0.0035,
+    "youtubeApiKey": "",
+    "metaGraphToken": "",
+    "threadsToken": "",
+    "githubToken": "",
+    "twitterBearerToken": "",
+    "telegramBotToken": "",
+    "platformPricing": {
+      "instagram": {
+        "liveness": 0.0025,
+        "details": 0.0035
+      },
+      "tiktok": {
+        "liveness": 0.0025,
+        "details": 0.0035
+      },
+      "facebook": {
+        "liveness": 0.0025,
+        "details": 0.0035
+      },
+      "youtube": {
+        "liveness": 0.002,
+        "details": 0.003
+      },
+      "threads": {
+        "liveness": 0.0025,
+        "details": 0.0035
+      },
+      "twitter": {
+        "liveness": 0.0025,
+        "details": 0.0035
+      },
+      "telegram": {
+        "liveness": 0.002,
+        "details": 0.003
+      },
+      "github": {
+        "liveness": 0.002,
+        "details": 0.003
+      },
+      "gmail": {
+        "liveness": 0.002,
+        "details": 0.003
+      },
+      "meta": {
+        "liveness": 0.0025,
+        "details": 0.0035
+      },
+      "auto": {
+        "liveness": 0.0025,
+        "details": 0.0035
+      }
+    },
+    "maintenanceMode": false,
+    "maintenanceMessage": "Hstock Account Checker is currently undergoing scheduled platform upgrades and security maintenance. All user balances and histories are safe. We will be back online shortly!",
+    "cloudflareEnabled": true,
+    "cloudflareSecurityLevel": "medium",
+    "cloudflareBotFightMode": true,
+    "rateLimitPerMin": 120
+  }
+}

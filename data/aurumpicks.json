@@ -1,0 +1,30 @@
+{
+  "products": [],
+  "categories": [
+    "Electronics & Gadgets",
+    "Smartphones & Accessories",
+    "Men & Women Fashion",
+    "Luxury Watches & Jewelry",
+    "Home & Kitchen Appliances",
+    "Health, Beauty & Skincare",
+    "Laptops & Computing",
+    "Audio, Earbuds & Speakers",
+    "Fitness & Outdoor Gear",
+    "Daraz Verified Deals"
+  ],
+  "analytics": {
+    "totalVisitors": 0,
+    "totalProductViews": 0,
+    "totalAffiliateClicks": 0
+  },
+  "messages": [],
+  "settings": {
+    "storeName": "AURUM PICKS",
+    "tagline": "Discover Better. Shop Smarter.",
+    "contactEmail": "usmanalikhanchandio@gmail.com",
+    "whatsappNumber": "",
+    "announcement": "✨ Welcome to AURUM PICKS — Pakistan's Curated Affiliate Shopping Destination. Verified Daraz Deals.",
+    "currency": "PKR",
+    "adminPasswordHash": "AurumAdmin2026!"
+  }
+}

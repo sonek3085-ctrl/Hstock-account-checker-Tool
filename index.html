@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <script>
+      // Handle environment where Vite HMR is disabled (mock WebSocket connection so @vite/client never errors)
+      (function() {
+        function createMockSocket(url, protocols) {
+          var listeners = {};
+          var sock = {
+            url: String(url || ''),
+            readyState: 1, // WebSocket.OPEN
+            OPEN: 1,
+            CONNECTING: 0,
+            CLOSING: 2,
+            CLOSED: 3,
+            binaryType: 'blob',
+            bufferedAmount: 0,
+            extensions: '',
+            protocol: Array.isArray(protocols) ? (protocols[0] || '') : (protocols || ''),
+            onopen: null,
+            onclose: null,
+            onerror: null,
+            onmessage: null,
+            addEventListener: function(type, fn) {
+              listeners[type] = listeners[type] || [];
+              listeners[type].push(fn);
+            },
+            removeEventListener: function(type, fn) {
+              if (!listeners[type]) return;
+              listeners[type] = listeners[type].filter(function(cb) { return cb !== fn; });
+            },
+            dispatchEvent: function(event) {
+              var type = event.type;
+              if (typeof sock['on' + type] === 'function') {
+                try { sock['on' + type](event); } catch(e) {}
+              }
+              if (listeners[type]) {
+                listeners[type].slice().forEach(function(fn) {
+                  try { fn(event); } catch(e) {}
+                });
+              }
+              return true;
+            },
+            send: function() {},
+            close: function(code, reason) {
+              sock.readyState = 3;
+              var ev = new Event('close');
+              ev.wasClean = true;
+              ev.code = code || 1000;
+              ev.reason = reason || '';
+              sock.dispatchEvent(ev);
+            }
+          };
+
+          // Dispatch 'open' on next microtick so Vite marks the connection as cleanly opened
+          setTimeout(function() {
+            if (sock.readyState === 1) {
+              var ev = new Event('open');
+              sock.dispatchEvent(ev);
+            }
+          }, 0);
+
+          return sock;
+        }
+
+        window.WebSocket = function(url, protocols) {
+          return createMockSocket(url, protocols);
+        };
+        window.WebSocket.prototype = Object.prototype;
+        window.WebSocket.CONNECTING = 0;
+        window.WebSocket.OPEN = 1;
+        window.WebSocket.CLOSING = 2;
+        window.WebSocket.CLOSED = 3;
+
+        var origConsoleError = console.error;
+        console.error = function() {
+          var args = Array.prototype.slice.call(arguments);
+          var isViteWs = args.some(function(a) {
+            var str = (a && a.message) ? a.message : (a && a.stack) ? a.stack : String(a);
+            return (
+              str.indexOf('WebSocket') !== -1 ||
+              str.indexOf('[vite]') !== -1 ||
+              str.indexOf('websocket') !== -1
+            );
+          });
+          if (isViteWs) return;
+          origConsoleError.apply(console, args);
+        };
+
+        var origConsoleWarn = console.warn;
+        console.warn = function() {
+          var args = Array.prototype.slice.call(arguments);
+          var isViteWs = args.some(function(a) {
+            var str = (a && a.message) ? a.message : (a && a.stack) ? a.stack : String(a);
+            return (
+              str.indexOf('WebSocket') !== -1 ||
+              str.indexOf('[vite]') !== -1
+            );
+          });
+          if (isViteWs) return;
+          origConsoleWarn.apply(console, args);
+        };
+
+        window.addEventListener('error', function(event) {
+          var msg = (event && (event.message || (event.error && (event.error.message || event.error.stack)))) || '';
+          if (msg.indexOf('WebSocket') !== -1 || msg.indexOf('vite') !== -1) {
+            event.stopImmediatePropagation();
+            event.preventDefault();
+            return true;
+          }
+        }, true);
+
+        window.addEventListener('unhandledrejection', function(event) {
+          var msg = (event && event.reason && (event.reason.message || event.reason.stack || String(event.reason))) || '';
+          if (msg.indexOf('WebSocket') !== -1 || msg.indexOf('vite') !== -1) {
+            event.stopImmediatePropagation();
+            event.preventDefault();
+            return true;
+          }
+        }, true);
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HSTOCK Account Checker — Real-Time Multi-Platform Account Verification</title>
+    <meta name="description" content="HSTOCK Account Checker - Real-time bulk social account liveness, 404 not found, and suspended/403 verification engine with BEP20 USDT settlement." />
+    <meta name="theme-color" content="#070d19" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="HSTOCK Checker" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <meta property="og:title" content="HSTOCK Account Checker — Real-Time Multi-Platform Account Verification" />
+    <meta property="og:description" content="Check social accounts individually for LIVE, NOT FOUND (404), and SUSPENDED / DISABLED (403) status with instant export and dashboard reporting." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#070d19] text-slate-100 antialiased selection:bg-cyan-500/30 selection:text-cyan-200 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

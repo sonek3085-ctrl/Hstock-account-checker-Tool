@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#181a26"/>
+      <stop offset="100%" stop-color="#0b0c10"/>
+    </radialGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#25f4ee"/>
+      <stop offset="100%" stop-color="#00b4d8"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4772"/>
+      <stop offset="100%" stop-color="#fe2c55"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect width="510" height="510" x="1" y="1" rx="111" fill="none" stroke="#25293d" stroke-width="2"/>
+
+  <!-- Glowing accent circle -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="#25f4ee" stroke-opacity="0.12" stroke-width="4"/>
+
+  <!-- TikTok style double layered note / blast icon -->
+  <!-- Cyan offset shadow -->
+  <g transform="translate(14, -14)" opacity="0.85">
+    <path d="M290 140 C310 175 340 195 380 200 L380 248 C345 248 315 235 290 216 L290 326 C290 380 246 424 192 424 C138 424 94 380 94 326 C94 272 138 228 192 228 C202 228 212 230 220 234 L220 286 C212 280 202 278 192 278 C166 278 144 300 144 326 C144 352 166 374 192 374 C218 374 240 352 240 326 L240 140 Z" fill="url(#cyanGrad)"/>
+  </g>
+
+  <!-- Red offset layer -->
+  <g transform="translate(-14, 14)" opacity="0.85">
+    <path d="M290 140 C310 175 340 195 380 200 L380 248 C345 248 315 235 290 216 L290 326 C290 380 246 424 192 424 C138 424 94 380 94 326 C94 272 138 228 192 228 C202 228 212 230 220 234 L220 286 C212 280 202 278 192 278 C166 278 144 300 144 326 C144 352 166 374 192 374 C218 374 240 352 240 326 L240 140 Z" fill="url(#redGrad)"/>
+  </g>
+
+  <!-- Center White Sharp Icon -->
+  <g filter="url(#glow)">
+    <path d="M290 140 C310 175 340 195 380 200 L380 248 C345 248 315 235 290 216 L290 326 C290 380 246 424 192 424 C138 424 94 380 94 326 C94 272 138 228 192 228 C202 228 212 230 220 234 L220 286 C212 280 202 278 192 278 C166 278 144 300 144 326 C144 352 166 374 192 374 C218 374 240 352 240 326 L240 140 Z" fill="#ffffff"/>
+  </g>
+
+  <!-- Boost Lightning badge on top right -->
+  <polygon points="380,110 420,110 395,165 435,165 370,240 385,185 350,185" fill="#25f4ee"/>
+</svg>

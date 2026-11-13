@@ -1,0 +1,118 @@
+{
+  "entities": {
+    "AppUser": {
+      "title": "AppUser",
+      "description": "Registered HSTOCK Account Checker customer or admin account with verified email, wallet balance, and role",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "role": { "type": "string", "enum": ["user", "admin"] },
+        "status": { "type": "string", "enum": ["active", "suspended"] },
+        "emailVerified": { "type": "boolean" },
+        "balance": { "type": "number" },
+        "totalDeposited": { "type": "number" },
+        "totalSpent": { "type": "number" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "name", "email", "role", "status", "balance", "createdAt"]
+    },
+    "PaymentRequest": {
+      "title": "PaymentRequest",
+      "description": "Customer USDT (BEP20) deposit request pending admin and blockchain verification",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "userName": { "type": "string" },
+        "userEmail": { "type": "string" },
+        "amountUsd": { "type": "number" },
+        "currency": { "type": "string", "enum": ["USDT"] },
+        "network": { "type": "string", "enum": ["BEP20"] },
+        "receivingAddress": { "type": "string" },
+        "transactionId": { "type": "string" },
+        "blockchainStatus": { "type": "string", "enum": ["UNVERIFIED", "CONFIRMED", "FAILED", "MISMATCH", "PENDING"] },
+        "status": { "type": "string", "enum": ["PENDING", "APPROVED", "REJECTED"] },
+        "rejectionReason": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "reviewedAt": { "type": "string" },
+        "reviewedBy": { "type": "string" }
+      },
+      "required": ["id", "userId", "amountUsd", "transactionId", "status", "createdAt"]
+    },
+    "CheckBatch": {
+      "title": "CheckBatch",
+      "description": "Account verification batch run by an authenticated customer with cost deduction and live probe results",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "platform": { "type": "string" },
+        "mode": { "type": "string", "enum": ["liveness", "details"] },
+        "accountsCount": { "type": "number" },
+        "cost": { "type": "number" },
+        "liveCount": { "type": "number" },
+        "deadCount": { "type": "number" },
+        "bannedCount": { "type": "number" },
+        "balanceAfter": { "type": "number" }
+      },
+      "required": ["id", "userId", "timestamp", "platform", "mode", "accountsCount", "cost"]
+    },
+    "WalletTransaction": {
+      "title": "WalletTransaction",
+      "description": "Immutable wallet credit/debit ledger record for deposits, verification deductions, refunds, and admin adjustments",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "userName": { "type": "string" },
+        "userEmail": { "type": "string" },
+        "type": { "type": "string", "enum": ["DEPOSIT", "CHECK_DEDUCTION", "REFUND", "ADMIN_ADJUSTMENT"] },
+        "amountUsd": { "type": "number" },
+        "balanceBefore": { "type": "number" },
+        "balanceAfter": { "type": "number" },
+        "referenceId": { "type": "string" },
+        "description": { "type": "string" },
+        "timestamp": { "type": "string" }
+      },
+      "required": ["id", "userId", "type", "amountUsd", "balanceBefore", "balanceAfter", "timestamp"]
+    },
+    "SharedResultShare": {
+      "title": "SharedResultShare",
+      "description": "Public read-only snapshot of an account verification report share link",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "userName": { "type": "string" },
+        "title": { "type": "string" },
+        "platform": { "type": "string" },
+        "mode": { "type": "string" },
+        "accountsCount": { "type": "number" },
+        "liveCount": { "type": "number" },
+        "deadCount": { "type": "number" },
+        "createdAt": { "type": "string" },
+        "isRevoked": { "type": "boolean" }
+      },
+      "required": ["id", "userId", "platform", "accountsCount", "createdAt"]
+    },
+    "SystemSettings": {
+      "title": "SystemSettings",
+      "description": "Admin-managed HSTOCK USDT receiving wallet, deposit limits, per-platform pricing, and API/WAF configuration",
+      "type": "object",
+      "properties": {
+        "usdtWalletAddress": { "type": "string" },
+        "usdtNetwork": { "type": "string" },
+        "minDepositUsd": { "type": "number" },
+        "maxDepositUsd": { "type": "number" },
+        "rateLiveness": { "type": "number" },
+        "rateDetails": { "type": "number" },
+        "maintenanceMode": { "type": "boolean" }
+      },
+      "required": ["usdtWalletAddress", "usdtNetwork", "minDepositUsd", "maxDepositUsd"]
+    }
+  }
+}

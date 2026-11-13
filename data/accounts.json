@@ -1,0 +1,900 @@
+[
+  {
+    "id": "24af1758-c693-48ca-a9e8-d3610f0ab585",
+    "platform": "instagram",
+    "rawInput": "new",
+    "username": "@new",
+    "profileUrl": "https://www.instagram.com/new/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-01T14:18:14.798Z",
+    "details": "Public Instagram profile is LIVE & active: \"Instagram\" (@new) verified via public indexing.",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Instagram",
+      "isPrivate": false,
+      "isVerified": true
+    }
+  },
+  {
+    "id": "48902e4f-6faa-4a36-a418-b62f950c6620",
+    "platform": "tiktok",
+    "rawInput": "@tiktok",
+    "username": "@tiktok",
+    "profileUrl": "https://www.tiktok.com/@tiktok",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-01T14:27:23.878Z",
+    "details": "Public TikTok profile is LIVE & active: \"TikTok\" (@tiktok).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "TikTok",
+      "title": "TikTok's Creator Profile"
+    }
+  },
+  {
+    "id": "931ccc11-56c9-4a8d-85e5-3511e5c46382",
+    "platform": "instagram",
+    "rawInput": "cristiano",
+    "username": "@cristiano",
+    "profileUrl": "https://www.instagram.com/cristiano/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-01T14:27:24.488Z",
+    "details": "Public Instagram profile is LIVE & active: \"Cristiano Ronaldo\" (@cristiano) • Verified Badge (638M).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Cristiano Ronaldo",
+      "isPrivate": false,
+      "isVerified": true
+    }
+  },
+  {
+    "id": "ff887c46-e853-4bf5-97fb-f25c8decb88d",
+    "platform": "instagram",
+    "rawInput": "usman:secretpass123",
+    "username": "@usman",
+    "profileUrl": "https://www.instagram.com/usman/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-01T14:27:32.967Z",
+    "details": "Public Instagram profile is LIVE & active: \"Usman\" (@usman) • Verified Badge (Active User).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Usman",
+      "isPrivate": false,
+      "isVerified": false
+    }
+  },
+  {
+    "id": "5f2449cc-acc5-44c7-924e-cc227a0c2baf",
+    "platform": "instagram",
+    "rawInput": "cristiano",
+    "username": "@cristiano",
+    "profileUrl": "https://www.instagram.com/cristiano/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T10:39:10.577Z",
+    "details": "Public Instagram profile is LIVE & active: \"Cristiano Ronaldo\" (@cristiano) • Verified Badge (638M).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Cristiano Ronaldo",
+      "isPrivate": false,
+      "isVerified": true
+    }
+  },
+  {
+    "id": "edb30771-d066-4b08-8b95-a67917934a52",
+    "platform": "instagram",
+    "rawInput": "natgeo",
+    "username": "@natgeo",
+    "profileUrl": "https://www.instagram.com/natgeo/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T10:39:10.599Z",
+    "details": "Public Instagram profile is LIVE & active: \"National Geographic\" (@natgeo) • Verified Badge (283M).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "National Geographic",
+      "isPrivate": false,
+      "isVerified": true
+    }
+  },
+  {
+    "id": "5c76134d-ec79-47ad-8003-541570b8b411",
+    "platform": "instagram",
+    "rawInput": "nike",
+    "username": "@nike",
+    "profileUrl": "https://www.instagram.com/nike/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T10:39:10.606Z",
+    "details": "Public Instagram profile is LIVE & active: \"Nike\" (@nike) • Verified Badge (306M).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Nike",
+      "isPrivate": false,
+      "isVerified": true
+    }
+  },
+  {
+    "id": "0ee6a9b8-0ed7-4bbd-8553-d720f3a3392f",
+    "platform": "instagram",
+    "rawInput": "taylorswift",
+    "username": "@taylorswift",
+    "profileUrl": "https://www.instagram.com/taylorswift/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T10:39:10.611Z",
+    "details": "Public Instagram profile is LIVE & active: \"Taylor Swift\" (@taylorswift) • Verified Badge (283M).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Taylor Swift",
+      "isPrivate": false,
+      "isVerified": true
+    }
+  },
+  {
+    "id": "f545090c-4f7c-49d6-b5e9-72834d73288a",
+    "platform": "instagram",
+    "rawInput": "mrbeast",
+    "username": "@mrbeast",
+    "profileUrl": "https://www.instagram.com/mrbeast/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T10:39:10.616Z",
+    "details": "Public Instagram profile is LIVE & active: \"MrBeast\" (@mrbeast) • Verified Badge (60M).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "MrBeast",
+      "isPrivate": false,
+      "isVerified": true
+    }
+  },
+  {
+    "id": "1c9f1482-568b-468a-bd89-d6025d553607",
+    "platform": "instagram",
+    "rawInput": "usmanalikhanchandio",
+    "username": "@usmanalikhanchandio",
+    "profileUrl": "https://www.instagram.com/usmanalikhanchandio/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T10:39:10.622Z",
+    "details": "Public Instagram profile is LIVE & active: \"Usman Ali Khan Chandio\" (@usmanalikhanchandio) (Active Creator).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Usman Ali Khan Chandio",
+      "isPrivate": false,
+      "isVerified": false
+    }
+  },
+  {
+    "id": "7ff3d22c-7d4d-44d1-9a9b-fb51f1c99fee",
+    "platform": "instagram",
+    "rawInput": "nonexistent_fake_acc_xyz89218731",
+    "username": "@nonexistent_fake_acc_xyz89218731",
+    "profileUrl": "https://www.instagram.com/nonexistent_fake_acc_xyz89218731/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T10:39:10.626Z",
+    "details": "Invalid Instagram username syntax. Usernames must be 1-30 characters with letters, numbers, periods, or underscores (no consecutive dots).",
+    "statusCode": 400
+  },
+  {
+    "id": "f86362d1-0627-4207-8684-bcf9f3e13cc4",
+    "platform": "instagram",
+    "rawInput": "thisuser_definitely_doesnot_exist_98172398127398172",
+    "username": "@thisuser_definitely_doesnot_exist_98172398127398172",
+    "profileUrl": "https://www.instagram.com/thisuser_definitely_doesnot_exist_98172398127398172/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T10:39:10.631Z",
+    "details": "Invalid Instagram username syntax. Usernames must be 1-30 characters with letters, numbers, periods, or underscores (no consecutive dots).",
+    "statusCode": 400
+  },
+  {
+    "id": "f1480fa2-ca0f-48a1-ab2b-032e96f5a969",
+    "platform": "instagram",
+    "rawInput": "random_gibberish_zzz_9999_404",
+    "username": "@random_gibberish_zzz_9999_404",
+    "profileUrl": "https://www.instagram.com/random_gibberish_zzz_9999_404/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T10:39:10.639Z",
+    "details": "No active public profile found for @random_gibberish_zzz_9999_404. Account does not exist on Instagram, has been closed, or is removed.",
+    "statusCode": 404
+  },
+  {
+    "id": "334bd919-11c8-4f7d-83d8-2cbed0b10bb0",
+    "platform": "instagram",
+    "rawInput": "deleted_user_xyz_9981273",
+    "username": "@deleted_user_xyz_9981273",
+    "profileUrl": "https://www.instagram.com/deleted_user_xyz_9981273/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T10:39:14.093Z",
+    "details": "No active public profile found for @deleted_user_xyz_9981273. Account does not exist on Instagram, has been closed, or is removed.",
+    "statusCode": 404
+  },
+  {
+    "id": "98d05d78-a109-4b0a-8738-a412928b82a7",
+    "platform": "instagram",
+    "rawInput": "broken..acc.invalid",
+    "username": "@broken..acc.invalid",
+    "profileUrl": "https://www.instagram.com/broken..acc.invalid/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T10:39:15.137Z",
+    "details": "Invalid Instagram username syntax. Usernames must be 1-30 characters with letters, numbers, periods, or underscores (no consecutive dots).",
+    "statusCode": 400
+  },
+  {
+    "id": "851af7c3-ba90-4bbd-8bc0-119cbc2d3580",
+    "platform": "instagram",
+    "rawInput": "test:suspended",
+    "username": "@test:suspended",
+    "profileUrl": "https://www.instagram.com/test:suspended/",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T10:39:15.142Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "a022cae1-ec14-45b2-bb72-aec29a45f87e",
+    "platform": "instagram",
+    "rawInput": "test:banned",
+    "username": "@test:banned",
+    "profileUrl": "https://www.instagram.com/test:banned/",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T10:39:15.146Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "37f612e7-3748-4a4b-af81-e2add5322104",
+    "platform": "instagram",
+    "rawInput": "test:notfound",
+    "username": "@test:notfound",
+    "profileUrl": "https://www.instagram.com/test:notfound/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T10:39:15.150Z",
+    "details": "Controlled test: Profile confirmed nonexistent (HTTP 404)",
+    "statusCode": 404
+  },
+  {
+    "id": "5a206edd-a5fb-4924-bc82-4a40319b7aa5",
+    "platform": "instagram",
+    "rawInput": "test:unverified",
+    "username": "@test:unverified",
+    "profileUrl": "https://www.instagram.com/test:unverified/",
+    "targetType": "profile",
+    "status": "UNVERIFIED",
+    "checkedAt": "2026-11-02T10:39:15.155Z",
+    "details": "Controlled test: Request challenged by platform anti-bot; marked UNVERIFIED",
+    "statusCode": 403
+  },
+  {
+    "id": "bfe607a5-d3f7-4512-849f-2c104f8028ea",
+    "platform": "tiktok",
+    "rawInput": "tiktok",
+    "username": "@tiktok",
+    "profileUrl": "https://www.tiktok.com/@tiktok",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T10:39:15.159Z",
+    "details": "Public TikTok profile is LIVE & active: \"TikTok\" (@tiktok).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "TikTok",
+      "title": "TikTok's Creator Profile"
+    }
+  },
+  {
+    "id": "ee03c599-fd6e-4f64-a192-9068a10239c5",
+    "platform": "tiktok",
+    "rawInput": "fake_tiktok_acc_xyz_981273",
+    "username": "@fake_tiktok_acc_xyz_981273",
+    "profileUrl": "https://www.tiktok.com/@fake_tiktok_acc_xyz_981273",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T10:39:15.452Z",
+    "details": "TikTok confirmed account not found. Profile @fake_tiktok_acc_xyz_981273 does not exist on TikTok.",
+    "statusCode": 404
+  },
+  {
+    "id": "0340aaf6-6f9c-454a-84f9-666b84250e77",
+    "platform": "instagram",
+    "rawInput": "cristiano",
+    "username": "@cristiano",
+    "profileUrl": "https://www.instagram.com/cristiano/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T10:39:24.381Z",
+    "details": "Public Instagram profile is LIVE & active: \"Cristiano Ronaldo\" (@cristiano) • Verified Badge (638M).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Cristiano Ronaldo",
+      "isPrivate": false,
+      "isVerified": true
+    }
+  },
+  {
+    "id": "454ece10-4753-4e74-9138-d3b7c01ff52c",
+    "platform": "instagram",
+    "rawInput": "natgeo",
+    "username": "@natgeo",
+    "profileUrl": "https://www.instagram.com/natgeo/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T10:39:24.385Z",
+    "details": "Public Instagram profile is LIVE & active: \"National Geographic\" (@natgeo) • Verified Badge (283M).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "National Geographic",
+      "isPrivate": false,
+      "isVerified": true
+    }
+  },
+  {
+    "id": "a39e3fd0-5a69-4560-959e-4b108953f1df",
+    "platform": "instagram",
+    "rawInput": "random_gibberish_zzz_9999_404",
+    "username": "@random_gibberish_zzz_9999_404",
+    "profileUrl": "https://www.instagram.com/random_gibberish_zzz_9999_404/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T10:39:24.385Z",
+    "details": "No active public profile found for @random_gibberish_zzz_9999_404. Account does not exist on Instagram, has been closed, or is removed.",
+    "statusCode": 404
+  },
+  {
+    "id": "66b6395d-4bc4-444e-ae1c-a8057f660aa2",
+    "platform": "instagram",
+    "rawInput": "deleted_user_xyz_9981273",
+    "username": "@deleted_user_xyz_9981273",
+    "profileUrl": "https://www.instagram.com/deleted_user_xyz_9981273/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T10:39:24.381Z",
+    "details": "No active public profile found for @deleted_user_xyz_9981273. Account does not exist on Instagram, has been closed, or is removed.",
+    "statusCode": 404
+  },
+  {
+    "id": "3c242b4b-c5b6-46bf-a988-158d1ca5c759",
+    "platform": "instagram",
+    "rawInput": "test:suspended",
+    "username": "@test:suspended",
+    "profileUrl": "https://www.instagram.com/test:suspended/",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T10:39:25.642Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "86e08791-fb2a-4b57-9c79-f37e0dcdc048",
+    "platform": "instagram",
+    "rawInput": "broken..dot",
+    "username": "@broken..dot",
+    "profileUrl": "https://www.instagram.com/broken..dot/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T10:39:25.643Z",
+    "details": "Invalid Instagram username syntax. Usernames must be 1-30 characters with letters, numbers, periods, or underscores (no consecutive dots).",
+    "statusCode": 400
+  },
+  {
+    "id": "96929833-c311-4124-a1b1-52db0ebc8815",
+    "platform": "instagram",
+    "rawInput": "thisuser_definitely_doesnot_exist_98172398127398172",
+    "username": "@thisuser_definitely_doesnot_exist_98172398127398172",
+    "profileUrl": "https://www.instagram.com/thisuser_definitely_doesnot_exist_98172398127398172/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T10:39:25.643Z",
+    "details": "Invalid Instagram username syntax. Usernames must be 1-30 characters with letters, numbers, periods, or underscores (no consecutive dots).",
+    "statusCode": 400
+  },
+  {
+    "id": "2e082cee-1b19-4531-85c4-02c04e338857",
+    "platform": "instagram",
+    "rawInput": "usmanalikhanchandio",
+    "username": "@usmanalikhanchandio",
+    "profileUrl": "https://www.instagram.com/usmanalikhanchandio/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T10:39:25.643Z",
+    "details": "Public Instagram profile is LIVE & active: \"Usman Ali Khan Chandio\" (@usmanalikhanchandio) (Active Creator).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Usman Ali Khan Chandio",
+      "isPrivate": false,
+      "isVerified": false
+    }
+  },
+  {
+    "id": "bd7d9107-8be8-410c-958c-4aa950cd3d41",
+    "platform": "gmail",
+    "rawInput": "google@gmail.com",
+    "username": "google@gmail.com",
+    "profileUrl": "google@gmail.com",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:51:36.913Z",
+    "details": "Facebook confirmed entity does not exist or has been removed (HTTP 404).",
+    "statusCode": 404
+  },
+  {
+    "id": "f7cdb4e6-2ce2-4cfd-9207-8d9cebc51647",
+    "platform": "gmail",
+    "rawInput": "usmanalikhanchandio@gmail.com",
+    "username": "usmanalikhanchandio@gmail.com",
+    "profileUrl": "usmanalikhanchandio@gmail.com",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:51:37.263Z",
+    "details": "Facebook confirmed entity does not exist or has been removed (HTTP 404).",
+    "statusCode": 404
+  },
+  {
+    "id": "5d2d8741-98e1-4067-8299-693225d903cf",
+    "platform": "gmail",
+    "rawInput": "test:suspended_google_account",
+    "username": "test:suspended_google_account",
+    "profileUrl": "test:suspended_google_account",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T12:51:37.577Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "00b7bb1c-1b58-4ed6-adc6-49df46407081",
+    "platform": "gmail",
+    "rawInput": "test:banned_user",
+    "username": "test:banned_user",
+    "profileUrl": "test:banned_user",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T12:51:37.582Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "ae644894-c256-4738-bfd0-28bd6010f137",
+    "platform": "gmail",
+    "rawInput": "short",
+    "username": "short",
+    "profileUrl": "short",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:51:37.589Z",
+    "details": "Facebook confirmed entity does not exist or has been removed (HTTP 404).",
+    "statusCode": 404
+  },
+  {
+    "id": "cbe46f9e-2ac9-4288-85ba-9994f5bf66fa",
+    "platform": "gmail",
+    "rawInput": "invalid..dots@gmail.com",
+    "username": "invalid..dots@gmail.com",
+    "profileUrl": "invalid..dots@gmail.com",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:51:37.826Z",
+    "details": "Facebook confirmed entity does not exist or has been removed (HTTP 404).",
+    "statusCode": 404
+  },
+  {
+    "id": "7e2423d5-ab90-43e7-a21b-da600fffc420",
+    "platform": "gmail",
+    "rawInput": "abuse@gmail.com",
+    "username": "abuse@gmail.com",
+    "profileUrl": "abuse@gmail.com",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:51:38.115Z",
+    "details": "Facebook confirmed entity does not exist or has been removed (HTTP 404).",
+    "statusCode": 404
+  },
+  {
+    "id": "58a22e85-35f3-47e3-8cbe-d7e1f4789ca8",
+    "platform": "instagram",
+    "rawInput": "cristiano",
+    "username": "@cristiano",
+    "profileUrl": "https://www.instagram.com/cristiano/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T12:51:38.402Z",
+    "details": "Public Instagram profile is LIVE & active: \"Cristiano Ronaldo\" (@cristiano) • Verified Badge (638M).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Cristiano Ronaldo",
+      "isPrivate": false,
+      "isVerified": true
+    }
+  },
+  {
+    "id": "8151fbd6-219a-4eaa-8bf8-b5675186386a",
+    "platform": "instagram",
+    "rawInput": "usmanalikhanchandio",
+    "username": "@usmanalikhanchandio",
+    "profileUrl": "https://www.instagram.com/usmanalikhanchandio/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T12:51:38.409Z",
+    "details": "Public Instagram profile is LIVE & active: \"Usman Ali Khan Chandio\" (@usmanalikhanchandio) (Active Creator).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Usman Ali Khan Chandio",
+      "isPrivate": false,
+      "isVerified": false
+    }
+  },
+  {
+    "id": "7c0cfdae-76dc-4aea-82e4-3cc8a530fc1e",
+    "platform": "instagram",
+    "rawInput": "test:suspended",
+    "username": "@test:suspended",
+    "profileUrl": "https://www.instagram.com/test:suspended/",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T12:51:38.415Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "719634fb-de25-49bc-a492-26d3a4cf50d6",
+    "platform": "instagram",
+    "rawInput": "test:banned",
+    "username": "@test:banned",
+    "profileUrl": "https://www.instagram.com/test:banned/",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T12:51:38.420Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "2b407221-1682-409c-b3b8-59b706f585d2",
+    "platform": "instagram",
+    "rawInput": "invalid..syntax",
+    "username": "@invalid..syntax",
+    "profileUrl": "https://www.instagram.com/invalid..syntax/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:51:38.425Z",
+    "details": "Invalid Instagram username syntax. Usernames must be 1-30 characters with letters, numbers, periods, or underscores (no consecutive dots).",
+    "statusCode": 400
+  },
+  {
+    "id": "7dde3497-02c3-4315-9b52-2a6773b6a7e2",
+    "platform": "instagram",
+    "rawInput": "random_unindexed_handle_9918237",
+    "username": "@random_unindexed_handle_9918237",
+    "profileUrl": "https://www.instagram.com/random_unindexed_handle_9918237/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:51:38.430Z",
+    "details": "Invalid Instagram username syntax. Usernames must be 1-30 characters with letters, numbers, periods, or underscores (no consecutive dots).",
+    "statusCode": 400
+  },
+  {
+    "id": "d81de9d8-d004-4ab8-9a1f-be7d685d6301",
+    "platform": "gmail",
+    "rawInput": "google@gmail.com",
+    "username": "google@gmail.com",
+    "profileUrl": "mailto:google@gmail.com",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T12:51:50.176Z",
+    "details": "Active Gmail mailbox confirmed: \"Google Official\" (google@gmail.com). Configured on Google MX infrastructure.",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Google Official",
+      "isVerified": true
+    }
+  },
+  {
+    "id": "f1eb9674-6c2d-452a-b731-5467fe038e5c",
+    "platform": "gmail",
+    "rawInput": "usmanalikhanchandio@gmail.com",
+    "username": "usmanalikhanchandio@gmail.com",
+    "profileUrl": "mailto:usmanalikhanchandio@gmail.com",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T12:51:50.198Z",
+    "details": "Active Gmail mailbox confirmed: \"Usman Ali Khan Chandio\" (usmanalikhanchandio@gmail.com). Configured on Google MX infrastructure.",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Usman Ali Khan Chandio",
+      "isVerified": true
+    }
+  },
+  {
+    "id": "a4c17e50-c17f-4cb3-8328-f7bd22f759c6",
+    "platform": "gmail",
+    "rawInput": "support@gmail.com",
+    "username": "support@gmail.com",
+    "profileUrl": "mailto:support@gmail.com",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T12:51:50.204Z",
+    "details": "Active Gmail mailbox confirmed: \"Google Support\" (support@gmail.com). Configured on Google MX infrastructure.",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Google Support",
+      "isVerified": true
+    }
+  },
+  {
+    "id": "67687659-2d35-4772-853f-7bded8345a9f",
+    "platform": "gmail",
+    "rawInput": "test:suspended_google_account",
+    "username": "test:suspended_google_account@gmail.com",
+    "profileUrl": "mailto:test:suspended_google_account@gmail.com",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T12:51:50.210Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "09d30a22-361e-46ae-bd39-0fdf4fb5370f",
+    "platform": "gmail",
+    "rawInput": "test:banned_user",
+    "username": "test:banned_user@gmail.com",
+    "profileUrl": "mailto:test:banned_user@gmail.com",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T12:51:50.215Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "3a31e7b0-ace5-4f51-96c5-8fc14bf95287",
+    "platform": "gmail",
+    "rawInput": "short",
+    "username": "short@gmail.com",
+    "profileUrl": "mailto:short@gmail.com",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:51:50.221Z",
+    "details": "Gmail username is too short. Google requires usernames to be between 6 and 30 characters.",
+    "statusCode": 400
+  },
+  {
+    "id": "ad91ae99-e554-4b4f-8e23-35b4d1e8eb15",
+    "platform": "gmail",
+    "rawInput": "invalid..dots@gmail.com",
+    "username": "invalid..dots@gmail.com",
+    "profileUrl": "mailto:invalid..dots@gmail.com",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:51:50.226Z",
+    "details": "Gmail usernames cannot contain consecutive periods (..).",
+    "statusCode": 400
+  },
+  {
+    "id": "a9315856-0a9a-4840-b4dc-50699c9a1069",
+    "platform": "gmail",
+    "rawInput": "abuse@gmail.com",
+    "username": "abuse@gmail.com",
+    "profileUrl": "mailto:abuse@gmail.com",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:51:50.232Z",
+    "details": "Gmail username is too short. Google requires usernames to be between 6 and 30 characters.",
+    "statusCode": 400
+  },
+  {
+    "id": "6469dccb-162b-44b5-a0cc-20bb63ee63dc",
+    "platform": "instagram",
+    "rawInput": "cristiano",
+    "username": "@cristiano",
+    "profileUrl": "https://www.instagram.com/cristiano/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T12:51:50.246Z",
+    "details": "Public Instagram profile is LIVE & active: \"Cristiano Ronaldo\" (@cristiano) • Verified Badge (638M).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Cristiano Ronaldo",
+      "isPrivate": false,
+      "isVerified": true
+    }
+  },
+  {
+    "id": "2cedfc54-96be-4bab-a1bf-17d7bd8ac2a5",
+    "platform": "instagram",
+    "rawInput": "usmanalikhanchandio",
+    "username": "@usmanalikhanchandio",
+    "profileUrl": "https://www.instagram.com/usmanalikhanchandio/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T12:51:50.257Z",
+    "details": "Public Instagram profile is LIVE & active: \"Usman Ali Khan Chandio\" (@usmanalikhanchandio) (Active Creator).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Usman Ali Khan Chandio",
+      "isPrivate": false,
+      "isVerified": false
+    }
+  },
+  {
+    "id": "7eae2243-9702-4f47-a6ae-d37ed0f4507f",
+    "platform": "instagram",
+    "rawInput": "test:suspended",
+    "username": "@test:suspended",
+    "profileUrl": "https://www.instagram.com/test:suspended/",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T12:51:50.263Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "8b8225a4-49f5-485f-877e-c5a0ced6541c",
+    "platform": "instagram",
+    "rawInput": "test:banned",
+    "username": "@test:banned",
+    "profileUrl": "https://www.instagram.com/test:banned/",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T12:51:50.269Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "5e1bcf26-e89d-4536-8124-1f32644d3f9c",
+    "platform": "instagram",
+    "rawInput": "invalid..syntax",
+    "username": "@invalid..syntax",
+    "profileUrl": "https://www.instagram.com/invalid..syntax/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:51:50.273Z",
+    "details": "Invalid Instagram username syntax. Usernames must be 1-30 characters with letters, numbers, periods, or underscores (no consecutive dots).",
+    "statusCode": 400
+  },
+  {
+    "id": "29d65a11-01fd-4271-b5bd-34bfc9d584b1",
+    "platform": "instagram",
+    "rawInput": "random_user_test_991823",
+    "username": "@random_user_test_991823",
+    "profileUrl": "https://www.instagram.com/random_user_test_991823/",
+    "targetType": "profile",
+    "status": "UNVERIFIED",
+    "checkedAt": "2026-11-02T12:51:50.278Z",
+    "details": "Instagram Cloud Challenge: Automated datacenter probe was challenged by Instagram (is_from_rle). Handle syntax is valid. Direct Browser Probe recommended to verify without datacenter blocks.",
+    "statusCode": 429
+  },
+  {
+    "id": "f64ba139-096d-4a75-87c1-40ae85ae88f4",
+    "platform": "gmail",
+    "rawInput": "google@gmail.com",
+    "username": "google@gmail.com",
+    "profileUrl": "mailto:google@gmail.com",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T12:52:40.250Z",
+    "details": "Active Gmail mailbox confirmed: \"Google Official\" (google@gmail.com). Configured on Google MX infrastructure.",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Google Official",
+      "isVerified": true
+    }
+  },
+  {
+    "id": "4149686e-9e01-4b0a-b8db-60431292cd6b",
+    "platform": "gmail",
+    "rawInput": "usmanalikhanchandio@gmail.com",
+    "username": "usmanalikhanchandio@gmail.com",
+    "profileUrl": "mailto:usmanalikhanchandio@gmail.com",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T12:52:40.271Z",
+    "details": "Active Gmail mailbox confirmed: \"Usman Ali Khan Chandio\" (usmanalikhanchandio@gmail.com). Configured on Google MX infrastructure.",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Usman Ali Khan Chandio",
+      "isVerified": true
+    }
+  },
+  {
+    "id": "ecefb9bb-ff89-4575-aa81-9470cc57935d",
+    "platform": "gmail",
+    "rawInput": "test:banned_account@gmail.com",
+    "username": "test:banned_account@gmail.com",
+    "profileUrl": "mailto:test:banned_account@gmail.com",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T12:52:40.277Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "87519524-6848-451c-acef-f3314dd04f20",
+    "platform": "gmail",
+    "rawInput": "short",
+    "username": "short@gmail.com",
+    "profileUrl": "mailto:short@gmail.com",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:52:40.283Z",
+    "details": "Gmail username is too short. Google requires usernames to be between 6 and 30 characters.",
+    "statusCode": 400
+  },
+  {
+    "id": "5981b087-2a04-4703-b800-23d0cdcf1a5a",
+    "platform": "instagram",
+    "rawInput": "cristiano",
+    "username": "@cristiano",
+    "profileUrl": "https://www.instagram.com/cristiano/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T12:52:40.288Z",
+    "details": "Public Instagram profile is LIVE & active: \"Cristiano Ronaldo\" (@cristiano) • Verified Badge (638M).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Cristiano Ronaldo",
+      "isPrivate": false,
+      "isVerified": true
+    }
+  },
+  {
+    "id": "3a2d7258-bfde-4a11-a7a0-a79c743f5678",
+    "platform": "instagram",
+    "rawInput": "usmanalikhanchandio",
+    "username": "@usmanalikhanchandio",
+    "profileUrl": "https://www.instagram.com/usmanalikhanchandio/",
+    "targetType": "profile",
+    "status": "LIVE",
+    "checkedAt": "2026-11-02T12:52:40.294Z",
+    "details": "Public Instagram profile is LIVE & active: \"Usman Ali Khan Chandio\" (@usmanalikhanchandio) (Active Creator).",
+    "statusCode": 200,
+    "metadata": {
+      "authorName": "Usman Ali Khan Chandio",
+      "isPrivate": false,
+      "isVerified": false
+    }
+  },
+  {
+    "id": "3f793b74-01bc-47cd-8606-d56e1a49ad28",
+    "platform": "instagram",
+    "rawInput": "test:suspended",
+    "username": "@test:suspended",
+    "profileUrl": "https://www.instagram.com/test:suspended/",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T12:52:40.298Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "2f8c7180-0132-4d0f-b909-9c1c7e58e65d",
+    "platform": "instagram",
+    "rawInput": "test:banned",
+    "username": "@test:banned",
+    "profileUrl": "https://www.instagram.com/test:banned/",
+    "targetType": "profile",
+    "status": "SUSPENDED",
+    "checkedAt": "2026-11-02T12:52:40.302Z",
+    "details": "Controlled test: Confirmed platform suspension notice",
+    "statusCode": 403
+  },
+  {
+    "id": "e32aad9a-4810-4fe1-b94d-b8c6c3abe36a",
+    "platform": "instagram",
+    "rawInput": "invalid..syntax",
+    "username": "@invalid..syntax",
+    "profileUrl": "https://www.instagram.com/invalid..syntax/",
+    "targetType": "profile",
+    "status": "NOT_FOUND",
+    "checkedAt": "2026-11-02T12:52:40.310Z",
+    "details": "Invalid Instagram username syntax. Usernames must be 1-30 characters with letters, numbers, periods, or underscores (no consecutive dots).",
+    "statusCode": 400
+  }
+]
